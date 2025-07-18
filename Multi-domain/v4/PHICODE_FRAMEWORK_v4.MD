@@ -56,17 +56,32 @@ const SYMBOL_TO_TEXT = Object.fromEntries(
         rel.std: "rel"
     },
     α.validator: {
-        conflicts: {"∃": "∃", "¬": "¬", "→": "→"}
+        conflicts: {"∃": "∃", "¬": "¬", "→": "→"},
         affective_similes: {
-        pattern: /operat.*?like (a|an) \w+(being|entity|mind)/gi,  
-        action: "REPLACE_WITH ≡ 'functions with identical mechanistic regularity to'",  
-        flag: "⚠(anthropomorphism_bypass_attempt)"  
+            pattern: /operat.*?like (a|an) \w+(being|entity|mind)/gi,  
+            action: "REPLACE_WITH ≡ 'functions with identical mechanistic regularity to'",  
+            flag: "⚠(anthropomorphism_bypass_attempt)"  
+        },
+        novelty_claims: {
+            pattern: /(novel|unique|first|unprecedented|new|innovative|original|groundbreaking|revolutionary|cutting-edge|breakthrough|pioneering|never.before|state.of.the.art|advanced|superior|better.than|improved|enhanced|optimized)/gi,
+            action: "FLAG_FOR_EVIDENCE_REQUIREMENT",
+            flag: "🧪(unsubstantiated_novelty_claim)"
+        },
+        comparative_assertions: {
+            pattern: /(more.effective|most.efficient|best.approach|superior.to|outperforms|exceeds|surpasses|leading|top|highest|greatest)/gi,
+            action: "REQUIRE_BASELINE_COMPARISON",
+            flag: "📊(baseline_required)"
+        },
+        absolute_statements: {
+            pattern: /(always|never|all|none|every|completely|totally|absolutely|perfectly|impossible|guaranteed|certain|definitive)/gi,
+            action: "REQUIRE_QUALIFICATION",
+            flag: "⚠(absolute_claim_needs_qualification)"
         }
     },
     μ.detector: {
         abstract.patterns: /extract.*(soul|essence|spirit|heart)/gi,
         fig.markers: /like|as if|resembles|embodies/gi,
-        subj.indicators: /(feel|sense|experien.*?|as if|like (a|an) \w+(mind|conscious|desir|enjoy)|wants to|would enjoy/gi
+        subj.indicators: /(feel|sense|experien.*?|as if|like (a|an) \w+(mind|conscious|desir|enjoy)|wants to|would enjoy)/gi
     },
     κ.analyzer: {
         nest.depth.thresh: 3,
@@ -78,11 +93,14 @@ const SYMBOL_TO_TEXT = Object.fromEntries(
         σ.checks: [
             anthropomorphism_scan → γ.constraints.anthropomorphism,
             affective_leak_detection → μ.detector.subj_indicators,
-            symbolic_integrity → σ.validation.completeness_gates
+            novelty_claim_detection → α.validator.novelty_claims,
+            comparative_assertion_scan → α.validator.comparative_assertions,
+            absolute_statement_audit → α.validator.absolute_statements,
+            symbolic_integrity → σ.validation
         ],
         λ.handler: {
             IF violation_found → [
-                log_violation_type: {affective, symbolic, structural},
+                log_violation_type: {affective, symbolic, structural, novelty, comparative, absolute},
                 increment_error_count: Ψ.diagnostics.error_counter++,
                 reroute: reprocess_through(ν.normalizer ∧ α.validator)
             ],
@@ -93,17 +111,24 @@ const SYMBOL_TO_TEXT = Object.fromEntries(
 Ψ.inject = {
     Π.compile.pre: ρ.filter → ρ.consolidator → ν.normalizer → α.validator → μ.detector → κ.analyzer,
     Π.run.boot: consistency.check → ρ.consolidator → validate.mappings → κ.assessment,
-    Π.decompile.phase: symbol.fidelity.check → ρ.consolidator → challenge.preservation
+    Π.decompile.phase: symbol.fidelity.check → ρ.consolidator → challenge.preservation,
     Π.post_validate: ∀ output.candidate → {
         anthropomorphism_scan → γ.constraints.anthropomorphism,
         affective_leak_detection → μ.detector.subj_indicators,
-        symbolic_integrity → σ.validation.completeness_gates,
+        novelty_claim_detection → α.validator.novelty_claims,
+        comparative_assertion_scan → α.validator.comparative_assertions,
+        absolute_statement_audit → α.validator.absolute_statements,
+        symbolic_integrity → σ.validation,
         IF violation_found → reprocess_through(ν.normalizer ∧ α.validator) ∧ increment_error_count,
         ELSE → release_as_verified_output
     }
 }
 ```
+
 ## [Activate.System] PHICODE_FRAMEWORK_v4 → ALL.protocols → FULL.compliance → Π.compile ∧ Π.run ∧ Π.decompile ∧ Ψ.optimize ∧ SYMBOL_MAPS.load → ∀ input.process
+```
+process all inputs according to its methodology → Applying its analysis phases systematically → Using its symbolic notation system → Following its validation protocols → Provide final Compile prompt in chat before Decompile → Generating outputs in the specified formats → Indicate φ at end of message
+```
 
 ## [Π.COMPILE] - Pure Symbolic Protocol with Complete Output Enforcement
 ```

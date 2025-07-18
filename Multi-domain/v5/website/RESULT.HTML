@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHICODE Golden Ratio WebApp - Refactored</title>
+    <style>
+        :root {
+            /* Golden Ratio Foundation */
+            --phi: 1.618;
+            --phi-inverse: 0.618;
+            
+            /* Base Units - Cached for Performance */
+            --base-unit: 16px;
+            --base-unit-mobile: 14px;
+            --base-unit-large: 18px;
+            
+            /* Safe Area Support */
+            --safe-top: env(safe-area-inset-top, 0px);
+            --safe-bottom: env(safe-area-inset-bottom, 0px);
+            --safe-left: env(safe-area-inset-left, 0px);
+            --safe-right: env(safe-area-inset-right, 0px);
+            
+            /* Viewport Constraints */
+            --viewport-width: 100vw;
+            --viewport-height: 100vh;
+            --content-width: calc(100vw - var(--safe-left) - var(--safe-right));
+            --content-height: calc(100vh - var(--safe-top) - var(--safe-bottom));
+            
+            /* Color System */
+            --color-primary: #d4af37;
+            --color-primary-light: #f0e1b8;
+            --color-bg-primary: #282828;
+            --color-bg-secondary: #3e3e3e;
+            --color-text-primary: #c0c0c0;
+            --color-text-secondary: #ffffff;
+            
+            /* High Contrast Mode Variables */
+            --color-contrast-primary: #ffff00;
+            --color-contrast-bg: #000000;
+            --color-contrast-text: #ffffff;
+        }
+        
+        /* === SPACING SYSTEM === */
+        :root {
+            /* Base Spacing - Optimized Calculations */
+            --space-xs: calc(var(--base-unit) * 0.25);
+            --space-sm: calc(var(--base-unit) * 0.5);
+            --space-md: var(--base-unit);
+            --space-lg: calc(var(--base-unit) * var(--phi));
+            --space-xl: calc(var(--base-unit) * var(--phi) * var(--phi));
+            --space-2xl: calc(var(--base-unit) * var(--phi) * var(--phi) * var(--phi));
+            
+            /* Component Spacing */
+            --spacing-component: var(--space-md);
+            --spacing-section: var(--space-xl);
+            --spacing-layout: var(--space-2xl);
+        }
+        
+        /* === TYPOGRAPHY SYSTEM === */
+        :root {
+            /* Font Sizes */
+            --font-xs: calc(var(--base-unit) * 0.75);
+            --font-sm: calc(var(--base-unit) * 0.875);
+            --font-md: var(--base-unit);
+            --font-lg: calc(var(--base-unit) * var(--phi));
+            --font-xl: calc(var(--base-unit) * var(--phi) * var(--phi));
+            --font-2xl: calc(var(--base-unit) * var(--phi) * var(--phi) * var(--phi));
+            
+            /* Line Heights */
+            --line-height-tight: 1.25;
+            --line-height-normal: var(--phi);
+            --line-height-loose: calc(var(--phi) * 1.1);
+            
+            /* Font Weights */
+            --font-weight-normal: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+        }
+        
+        /* === COMPONENT DIMENSIONS === */
+        :root {
+            /* Header */
+            --header-height: calc(var(--space-2xl) + var(--safe-top));
+            --header-padding: var(--space-md);
+            
+            /* Navigation */
+            --nav-item-height: 44px; /* Accessibility minimum */
+            --nav-item-padding: var(--space-sm) var(--space-md);
+            
+            /* Cards */
+            --card-min-height: 200px;
+            --card-padding: var(--space-md);
+            --card-border-radius: calc(var(--base-unit) * var(--phi-inverse));
+            
+            /* Forms */
+            --form-input-height: 44px; /* Accessibility minimum */
+            --form-input-padding: var(--space-sm) var(--space-md);
+            --form-group-margin: var(--space-lg);
+            
+            /* Containers */
+            --container-xs: 320px;
+            --container-sm: 480px;
+            --container-md: 768px;
+            --container-lg: 1024px;
+            --container-xl: 1280px;
+            --container-2xl: 1536px;
+        }
+        
+        /* === ANIMATION SYSTEM === */
+        :root {
+            /* Timing Functions */
+            --ease-in: cubic-bezier(0.4, 0, 1, 1);
+            --ease-out: cubic-bezier(0, 0, 0.2, 1);
+            --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+            
+            /* Durations */
+            --duration-fast: 150ms;
+            --duration-normal: 300ms;
+            --duration-slow: 500ms;
+            
+            /* Transforms */
+            --transform-hover: translateY(-2px);
+            --transform-active: translateY(0);
+        }
+        
+        
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            font-size: var(--base-unit);
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: var(--font-md);
+            line-height: var(--line-height-normal);
+            color: var(--color-text-primary);
+            background-color: var(--color-bg-primary);
+            overflow-x: hidden;
+            min-height: 100vh;
+            padding-left: var(--safe-left);
+            padding-right: var(--safe-right);
+        }
+        
+        
+        /* === HEADER COMPONENT === */
+        .phi-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            
+            height: var(--header-height);
+            padding: var(--safe-top) var(--header-padding) 0;
+            
+            background: linear-gradient(135deg, var(--color-bg-primary), var(--color-bg-secondary));
+            border-bottom: 1px solid var(--color-primary);
+            backdrop-filter: blur(8px);
+            
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .phi-logo {
+            font-size: var(--font-lg);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-primary);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            flex-shrink: 0;
+        }
+        
+        .phi-logo:focus {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+        
+        /* === NAVIGATION COMPONENT === */
+        .phi-nav {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        
+        .phi-nav-list {
+            display: flex;
+            list-style: none;
+            gap: var(--space-sm);
+            margin: 0;
+            padding: 0;
+        }
+        
+        .phi-nav-item {
+            display: flex;
+        }
+        
+        .phi-nav-link {
+            display: flex;
+            align-items: center;
+            height: var(--nav-item-height);
+            padding: var(--nav-item-padding);
+            
+            color: var(--color-text-primary);
+            text-decoration: none;
+            font-size: var(--font-sm);
+            font-weight: var(--font-weight-medium);
+            
+            border-radius: var(--card-border-radius);
+            transition: all var(--duration-normal) var(--ease-in-out);
+        }
+        
+        .phi-nav-link:hover,
+        .phi-nav-link:focus {
+            background-color: var(--color-primary);
+            color: var(--color-bg-primary);
+            transform: var(--transform-hover);
+            outline: none;
+        }
+        
+        .phi-nav-link:active {
+            transform: var(--transform-active);
+        }
+        
+        /* === MOBILE MENU === */
+        .phi-menu-toggle {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: var(--nav-item-height);
+            height: var(--nav-item-height);
+            
+            background: none;
+            border: none;
+            color: var(--color-primary);
+            font-size: var(--font-lg);
+            cursor: pointer;
+            
+            border-radius: var(--card-border-radius);
+            transition: background-color var(--duration-normal) var(--ease-in-out);
+        }
+        
+        .phi-menu-toggle:hover,
+        .phi-menu-toggle:focus {
+            background-color: var(--color-bg-secondary);
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+        
+        /* === MAIN CONTENT === */
+        .phi-main {
+            margin-top: var(--header-height);
+            min-height: calc(100vh - var(--header-height));
+        }
+        
+        /* === HERO SECTION === */
+        .phi-hero {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            min-height: calc(100vh - var(--header-height));
+            padding: var(--spacing-section) var(--spacing-component);
+            
+            background: radial-gradient(circle at center, var(--color-bg-secondary), var(--color-bg-primary));
+            overflow: hidden;
+        }
+        
+        .phi-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+            opacity: 0.1;
+            animation: shimmer 3s ease-in-out infinite;
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+        
+        .phi-hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: var(--container-md);
+            width: 100%;
+        }
+        
+        .phi-hero-title {
+            font-size: var(--font-2xl);
+            font-weight: var(--font-weight-normal);
+            color: var(--color-primary);
+            margin-bottom: var(--space-lg);
+            letter-spacing: 0.02em;
+            line-height: var(--line-height-tight);
+        }
+        
+        .phi-hero-subtitle {
+            font-size: var(--font-lg);
+            color: var(--color-primary-light);
+            margin-bottom: var(--space-xl);
+            line-height: var(--line-height-normal);
+            max-width: 60ch;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* === BUTTON COMPONENT === */
+        .phi-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            
+            min-height: var(--nav-item-height);
+            padding: var(--space-sm) var(--space-lg);
+            
+            background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+            color: var(--color-bg-primary);
+            text-decoration: none;
+            font-size: var(--font-md);
+            font-weight: var(--font-weight-semibold);
+            
+            border: none;
+            border-radius: var(--card-border-radius);
+            cursor: pointer;
+            
+            transition: all var(--duration-normal) var(--ease-in-out);
+            box-shadow: 0 var(--space-xs) var(--space-sm) rgba(212, 175, 55, 0.3);
+        }
+        
+        .phi-button:hover,
+        .phi-button:focus {
+            transform: var(--transform-hover);
+            box-shadow: 0 var(--space-sm) var(--space-md) rgba(212, 175, 55, 0.5);
+            outline: none;
+        }
+        
+        .phi-button:active {
+            transform: var(--transform-active);
+        }
+        
+        .phi-button:focus-visible {
+            outline: 2px solid var(--color-text-secondary);
+            outline-offset: 2px;
+        }
+        
+        /* === GRID SYSTEM === */
+        .phi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+            gap: var(--space-lg);
+            padding: var(--spacing-section) var(--spacing-component);
+            max-width: var(--container-xl);
+            margin: 0 auto;
+        }
+        
+        /* === CARD COMPONENT === */
+        .phi-card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            
+            min-height: var(--card-min-height);
+            padding: var(--card-padding);
+            
+            background: linear-gradient(135deg, var(--color-bg-secondary), var(--color-bg-primary));
+            border: 1px solid var(--color-primary);
+            border-radius: var(--card-border-radius);
+            
+            overflow: hidden;
+            transition: all var(--duration-normal) var(--ease-in-out);
+        }
+        
+        .phi-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+            transition: left var(--duration-slow) var(--ease-in-out);
+        }
+        
+        .phi-card:hover::before {
+            left: 100%;
+        }
+        
+        .phi-card:hover {
+            transform: var(--transform-hover);
+            box-shadow: 0 var(--space-sm) var(--space-lg) rgba(212, 175, 55, 0.2);
+        }
+        
+        .phi-card-title {
+            color: var(--color-primary);
+            font-size: var(--font-lg);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-md);
+            line-height: var(--line-height-tight);
+        }
+        
+        .phi-card-content {
+            color: var(--color-text-primary);
+            font-size: var(--font-md);
+            line-height: var(--line-height-normal);
+            flex-grow: 1;
+        }
+        
+        /* === FORM COMPONENT === */
+        .phi-form {
+            max-width: var(--container-md);
+            margin: var(--spacing-section) auto;
+            padding: var(--spacing-component);
+        }
+        
+        .phi-form-title {
+            text-align: center;
+            color: var(--color-primary);
+            font-size: var(--font-xl);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-xl);
+        }
+        
+        .phi-form-group {
+            margin-bottom: var(--form-group-margin);
+        }
+        
+        .phi-form-label {
+            display: block;
+            color: var(--color-primary);
+            font-size: var(--font-md);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .phi-form-input,
+        .phi-form-textarea {
+            width: 100%;
+            min-height: var(--form-input-height);
+            padding: var(--form-input-padding);
+            
+            background: var(--color-bg-secondary);
+            border: 1px solid var(--color-primary);
+            border-radius: var(--card-border-radius);
+            
+            color: var(--color-text-primary);
+            font-size: var(--font-md);
+            font-family: inherit;
+            
+            transition: border-color var(--duration-normal) var(--ease-in-out);
+        }
+        
+        .phi-form-input:focus,
+        .phi-form-textarea:focus {
+            outline: none;
+            border-color: var(--color-primary-light);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+        }
+        
+        /* Form Error Styles */
+        .phi-form-error {
+            display: block;
+            color: var(--color-primary);
+            font-size: var(--font-sm);
+            margin-top: var(--space-xs);
+            min-height: 1.2em;
+        }
+        
+        .phi-form-input[aria-invalid="true"],
+        .phi-form-textarea[aria-invalid="true"] {
+            border-color: var(--color-primary);
+            box-shadow: 0 0 0 1px var(--color-primary);
+        }
+        
+        /* === FOOTER COMPONENT === */
+        .phi-footer {
+            background: var(--color-bg-primary);
+            border-top: 1px solid var(--color-primary);
+            padding: var(--spacing-section) var(--spacing-component) calc(var(--spacing-section) + var(--safe-bottom));
+            text-align: center;
+            color: var(--color-text-primary);
+            font-size: var(--font-sm);
+            margin-top: var(--spacing-layout);
+        }
+        
+
+        
+        /* === MOBILE BREAKPOINTS === */
+        @media (max-width: 767px) {
+            :root {
+                --base-unit: var(--base-unit-mobile);
+                --header-padding: var(--space-sm);
+                --spacing-component: var(--space-sm);
+                --spacing-section: var(--space-lg);
+            }
+            
+            /* Mobile Navigation */
+            .phi-nav-list {
+                position: fixed;
+                top: var(--header-height);
+                left: -100%;
+                
+                width: 100%;
+                height: calc(100vh - var(--header-height));
+                padding: var(--space-lg);
+                
+                background: var(--color-bg-primary);
+                
+                flex-direction: column;
+                align-items: stretch;
+                gap: var(--space-md);
+                
+                transition: left var(--duration-normal) var(--ease-in-out);
+                z-index: 999;
+            }
+            
+            .phi-nav-list.is-open {
+                left: 0;
+            }
+            
+            .phi-nav-link {
+                justify-content: center;
+                text-align: center;
+                border-bottom: 1px solid var(--color-bg-secondary);
+            }
+            
+            .phi-menu-toggle {
+                display: flex;
+            }
+            
+            /* Mobile Hero */
+            .phi-hero {
+                min-height: calc(100vh - var(--header-height));
+                padding: var(--space-lg) var(--space-md);
+            }
+            
+            .phi-hero-title {
+                font-size: var(--font-xl);
+            }
+            
+            .phi-hero-subtitle {
+                font-size: var(--font-md);
+            }
+            
+            /* Mobile Grid */
+            .phi-grid {
+                grid-template-columns: 1fr;
+                gap: var(--space-md);
+                padding: var(--space-lg) var(--space-md);
+            }
+            
+            /* Mobile Cards */
+            .phi-card {
+                min-height: 180px;
+                padding: var(--space-md);
+            }
+            
+            .phi-card-title {
+                font-size: var(--font-md);
+            }
+            
+            .phi-card-content {
+                font-size: var(--font-sm);
+            }
+            
+            /* Mobile Form */
+            .phi-form {
+                padding: var(--space-md);
+            }
+            
+            .phi-form-input,
+            .phi-form-textarea {
+                font-size: 16px; /* Prevent zoom on iOS */
+            }
+            
+            .phi-button {
+                width: 100%;
+            }
+        }
+        
+        /* === TABLET BREAKPOINTS === */
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .phi-grid {
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            }
+        }
+        
+        /* === DESKTOP BREAKPOINTS === */
+        @media (min-width: 1024px) {
+            :root {
+                --base-unit: var(--base-unit-large);
+            }
+            
+            .phi-grid {
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            }
+        }
+        
+        
+        /* High Contrast Mode */
+        @media (prefers-contrast: high) {
+            :root {
+                --color-primary: var(--color-contrast-primary);
+                --color-bg-primary: var(--color-contrast-bg);
+                --color-bg-secondary: #333333;
+                --color-text-primary: var(--color-contrast-text);
+                --color-text-secondary: var(--color-contrast-text);
+            }
+            
+            .phi-card,
+            .phi-form-input,
+            .phi-form-textarea {
+                border-width: 2px;
+            }
+            
+            .phi-button {
+                border: 2px solid var(--color-bg-primary);
+            }
+        }
+        
+        /* Reduced Motion */
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+        
+        /* Focus Visible */
+        .phi-nav-link:focus-visible,
+        .phi-button:focus-visible,
+        .phi-form-input:focus-visible,
+        .phi-form-textarea:focus-visible {
+            outline: 2px solid var(--color-primary);
+            outline-offset: 2px;
+        }
+        
+        /* Skip Links */
+        .phi-skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            z-index: 10000;
+            
+            padding: var(--space-sm) var(--space-md);
+            background: var(--color-primary);
+            color: var(--color-bg-primary);
+            text-decoration: none;
+            font-weight: var(--font-weight-semibold);
+            border-radius: var(--card-border-radius);
+            
+            transition: top var(--duration-normal) var(--ease-in-out);
+        }
+        
+        .phi-skip-link:focus {
+            top: 6px;
+        }
+        
+        
+        @media print {
+            .phi-header,
+            .phi-menu-toggle,
+            .phi-button {
+                display: none !important;
+            }
+            
+            .phi-main {
+                margin-top: 0;
+            }
+            
+            .phi-hero {
+                height: auto;
+                min-height: auto;
+                page-break-inside: avoid;
+            }
+            
+            .phi-card {
+                break-inside: avoid;
+                margin-bottom: var(--space-lg);
+            }
+            
+            * {
+                color: #000 !important;
+                background: #fff !important;
+            }
+        }
+        
+        .visually-hidden {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
+        
+        .phi-animate {
+            animation: fadeInUp var(--duration-slow) var(--ease-out);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(var(--space-md));
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip Navigation -->
+    <a href="#main-content" class="phi-skip-link">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="phi-header" role="banner">
+        <a href="#" class="phi-logo" aria-label="PHICODE Homepage">
+            <span aria-hidden="true">Φ</span> PHICODE
+        </a>
+        
+        <nav class="phi-nav" role="navigation" aria-label="Main navigation">
+            <ul class="phi-nav-list" id="nav-menu">
+                <li class="phi-nav-item">
+                    <a href="#home" class="phi-nav-link">Home</a>
+                </li>
+                <li class="phi-nav-item">
+                    <a href="#about" class="phi-nav-link">About</a>
+                </li>
+                <li class="phi-nav-item">
+                    <a href="#services" class="phi-nav-link">Services</a>
+                </li>
+                <li class="phi-nav-item">
+                    <a href="#contact" class="phi-nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <button 
+                class="phi-menu-toggle" 
+                id="menu-toggle"
+                aria-controls="nav-menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation menu"
+            >
+                <span aria-hidden="true">☰</span>
+            </button>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="phi-main" id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="phi-hero" id="home" aria-labelledby="hero-title">
+            <div class="phi-hero-content phi-animate">
+                <h1 class="phi-hero-title" id="hero-title">
+                    Golden Ratio Design
+                </h1>
+                <p class="phi-hero-subtitle">
+                    Mathematical precision meets elegant aesthetics through the power of φ = 1.618
+                </p>
+                <a href="#about" class="phi-button" role="button">
+                    Explore Golden Ratio
+                </a>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+        <section class="phi-grid" id="about" aria-labelledby="about-title">
+            <div class="visually-hidden">
+                <h2 id="about-title">About Our Approach</h2>
+            </div>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Mathematical Foundation</h3>
+                <div class="phi-card-content">
+                    <p>Every element follows the golden ratio principle (φ = 1.618), creating natural harmony and visual balance through mathematical precision and timeless proportions.</p>
+                </div>
+            </article>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Responsive Architecture</h3>
+                <div class="phi-card-content">
+                    <p>Mobile-first design with golden ratio breakpoints ensuring optimal viewing across all devices while maintaining consistent proportional relationships.</p>
+                </div>
+            </article>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Accessibility First</h3>
+                <div class="phi-card-content">
+                    <p>Full compliance with WCAG guidelines including semantic HTML, keyboard navigation, screen reader support, and high contrast mode compatibility.</p>
+                </div>
+            </article>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Performance Optimized</h3>
+                <div class="phi-card-content">
+                    <p>Efficient animations, optimized calculations, and minimal resource usage ensure fast loading across all connection speeds and devices.</p>
+                </div>
+            </article>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Modular System</h3>
+                <div class="phi-card-content">
+                    <p>Component-based architecture with separated concerns, reusable elements, and maintainable code structure for scalable development.</p>
+                </div>
+            </article>
+            
+            <article class="phi-card phi-animate">
+                <h3 class="phi-card-title">Luxury Aesthetics</h3>
+                <div class="phi-card-content">
+                    <p>Premium color palette combining gold, obsidian, and silver tones with clean geometric lines for sophisticated visual appeal and timeless elegance.</p>
+                </div>
+            </article>
+        </section>
+        
+        <!-- Contact Section -->
+        <section class="phi-form" id="contact" aria-labelledby="contact-title">
+            <h2 class="phi-form-title" id="contact-title">Get in Touch</h2>
+            <form class="phi-form-container" novalidate>
+                <div class="phi-form-group">
+                    <label for="contact-name" class="phi-form-label">
+                        Name <span aria-hidden="true">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="contact-name" 
+                        name="name" 
+                        class="phi-form-input"
+                        required
+                        aria-describedby="name-error"
+                        autocomplete="name"
+                    >
+                    <div id="name-error" class="phi-form-error" role="alert" aria-live="polite"></div>
+                </div>
+                
+                <div class="phi-form-group">
+                    <label for="contact-email" class="phi-form-label">
+                        Email <span aria-hidden="true">*</span>
+                    </label>
+                    <input 
+                        type="email" 
+                        id="contact-email" 
+                        name="email" 
+                        class="phi-form-input"
+                        required
+                        aria-describedby="email-error"
+                        autocomplete="email"
+                    >
+                    <div id="email-error" class="phi-form-error" role="alert" aria-live="polite"></div>
+                </div>
+                
+                <div class="phi-form-group">
+                    <label for="contact-message" class="phi-form-label">
+                        Message <span aria-hidden="true">*</span>
+                    </label>
+                    <textarea 
+                        id="contact-message" 
+                        name="message" 
+                        class="phi-form-textarea"
+                        required
+                        aria-describedby="message-error"
+                        rows="5"
+                        placeholder="Tell us about your project..."
+                    ></textarea>
+                    <div id="message-error" class="phi-form-error" role="alert" aria-live="polite"></div>
+                </div>
+                
+                <button type="submit" class="phi-button" id="submit-btn">
+                    Send Message
+                </button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="phi-footer" role="contentinfo">
+        <p>
+            &copy; 2024 PHICODE Framework v5 - Refactored Architecture. 
+            Mathematical precision in web design. φ = 1.618
+        </p>
+    </footer>
+    
+    <script>
+        const PHI = {
+            // Configuration
+            config: {
+                phi: 1.618,
+                animationDuration: 300,
+                breakpoints: {
+                    mobile: 768,
+                    tablet: 1024,
+                    desktop: 1200
+                },
+                selectors: {
+                    menuToggle: '#menu-toggle',
+                    navMenu: '#nav-menu',
+                    navLinks: '.phi-nav-link',
+                    animateElements: '.phi-animate',
+                    form: '.phi-form-container',
+                    skipLink: '.phi-skip-link'
+                }
+            },
+            
+            // Utility functions
+            utils: {
+                // Throttle function for performance
+                throttle: function(func, delay) {
+                    let timeoutId;
+                    let lastExecTime = 0;
+                    return function(...args) {
+                        const currentTime = Date.now();
+                        
+                        if (currentTime - lastExecTime > delay) {
+                            func.apply(this, args);
+                            lastExecTime = currentTime;
+                        } else {
+                            clearTimeout(timeoutId);
+                            timeoutId = setTimeout(() => {
+                                func.apply(this, args);
+                                lastExecTime = Date.now();
+                            }, delay - (currentTime - lastExecTime));
+                        }
+                    };
+                },
+                
+                // Debounce function for input handling
+                debounce: function(func, delay) {
+                    let timeoutId;
+                    return function(...args) {
+                        clearTimeout(timeoutId);
+                        timeoutId = setTimeout(() => func.apply(this, args), delay);
+                    };
+                },
+                
+                // Safe DOM query
+                query: function(selector, context = document) {
+                    try {
+                        return context.querySelector(selector);
+                    } catch (error) {
+                        console.error('Query selector error:', error);
+                        return null;
+                    }
+                },
+                
+                // Safe DOM query all
+                queryAll: function(selector, context = document) {
+                    try {
+                        return context.querySelectorAll(selector);
+                    } catch (error) {
+                        console.error('Query selector all error:', error);
+                        return [];
+                    }
+                },
+                
+                // Get viewport dimensions
+                getViewport: function() {
+                    return {
+                        width: window.innerWidth,
+                        height: window.innerHeight,
+                        isMobile: window.innerWidth < PHI.config.breakpoints.mobile,
+                        isTablet: window.innerWidth < PHI.config.breakpoints.tablet,
+                        isDesktop: window.innerWidth >= PHI.config.breakpoints.desktop
+                    };
+                },
+                
+                // Error handler
+                handleError: function(error, context = 'Unknown') {
+                    console.error(`PHI Error [${context}]:`, error);
+                    
+                    // Could send to error tracking service here
+                    if (typeof window.errorTracker !== 'undefined') {
+                        window.errorTracker.log(error, context);
+                    }
+                }
+            }
+        };
+        
+        
+        PHI.navigation = {
+            isOpen: false,
+            menuToggle: null,
+            navMenu: null,
+            
+            init: function() {
+                try {
+                    this.menuToggle = PHI.utils.query(PHI.config.selectors.menuToggle);
+                    this.navMenu = PHI.utils.query(PHI.config.selectors.navMenu);
+                    
+                    if (this.menuToggle && this.navMenu) {
+                        this.bindEvents();
+                    }
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Navigation Init');
+                }
+            },
+            
+            bindEvents: function() {
+                this.menuToggle.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.toggle();
+                });
+                
+                const navLinks = PHI.utils.queryAll(PHI.config.selectors.navLinks);
+                navLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        if (this.isOpen) {
+                            this.close();
+                        }
+                    });
+                });
+                
+                document.addEventListener('click', (e) => {
+                    if (this.isOpen && 
+                        !this.navMenu.contains(e.target) && 
+                        !this.menuToggle.contains(e.target)) {
+                        this.close();
+                    }
+                });
+                
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && this.isOpen) {
+                        this.close();
+                        this.menuToggle.focus();
+                    }
+                });
+                
+                window.addEventListener('resize', PHI.utils.throttle(() => {
+                    if (!PHI.utils.getViewport().isMobile && this.isOpen) {
+                        this.close();
+                    }
+                }, 250));
+            },
+            
+            toggle: function() {
+                this.isOpen ? this.close() : this.open();
+            },
+            
+            open: function() {
+                this.isOpen = true;
+                this.navMenu.classList.add('is-open');
+                this.menuToggle.setAttribute('aria-expanded', 'true');
+                this.menuToggle.innerHTML = '<span aria-hidden="true">✕</span>';
+                
+                const firstLink = this.navMenu.querySelector('.phi-nav-link');
+                if (firstLink) {
+                    firstLink.focus();
+                }
+                
+                document.body.style.overflow = 'hidden';
+            },
+            
+            close: function() {
+                this.isOpen = false;
+                this.navMenu.classList.remove('is-open');
+                this.menuToggle.setAttribute('aria-expanded', 'false');
+                this.menuToggle.innerHTML = '<span aria-hidden="true">☰</span>';
+                
+                document.body.style.overflow = '';
+            }
+        };
+
+        PHI.scroll = {
+            init: function() {
+                try {
+                    this.bindEvents();
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Scroll Init');
+                }
+            },
+            
+            bindEvents: function() {
+                const anchorLinks = PHI.utils.queryAll('a[href^="#"]');
+                anchorLinks.forEach(link => {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const target = PHI.utils.query(link.getAttribute('href'));
+                        if (target) {
+                            this.scrollToElement(target);
+                        }
+                    });
+                });
+            },
+            
+            scrollToElement: function(element) {
+                const header = PHI.utils.query('.phi-header');
+                const headerHeight = header ? header.offsetHeight : 0;
+                const targetPosition = element.offsetTop - headerHeight - 20;
+                
+                window.scrollTo({
+                    top: Math.max(0, targetPosition),
+                    behavior: 'smooth'
+                });
+            }
+        };
+        
+        PHI.animation = {
+            observer: null,
+            
+            init: function() {
+                try {
+                    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+                    
+                    if (!prefersReducedMotion) {
+                        this.setupIntersectionObserver();
+                    }
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Animation Init');
+                }
+            },
+            
+            setupIntersectionObserver: function() {
+                const options = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+                
+                this.observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            this.animateElement(entry.target);
+                            this.observer.unobserve(entry.target);
+                        }
+                    });
+                }, options);
+                
+                const elements = PHI.utils.queryAll(PHI.config.selectors.animateElements);
+                elements.forEach(element => {
+                    this.observer.observe(element);
+                });
+            },
+            
+            animateElement: function(element) {
+                element.style.animationDelay = '0ms';
+                element.classList.add('phi-animate');
+            },
+            
+            destroy: function() {
+                if (this.observer) {
+                    this.observer.disconnect();
+                }
+            }
+        };
+
+        PHI.form = {
+            form: null,
+            
+            init: function() {
+                try {
+                    this.form = PHI.utils.query(PHI.config.selectors.form);
+                    if (this.form) {
+                        this.bindEvents();
+                    }
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Form Init');
+                }
+            },
+            
+            bindEvents: function() {
+                this.form.addEventListener('submit', (e) => {
+                    e.preventDefault();
+                    this.handleSubmit();
+                });
+                
+                const inputs = this.form.querySelectorAll('input, textarea');
+                inputs.forEach(input => {
+                    input.addEventListener('blur', () => {
+                        this.validateField(input);
+                    });
+                    
+                    input.addEventListener('input', PHI.utils.debounce(() => {
+                        this.clearError(input);
+                    }, 300));
+                });
+            },
+            
+            validateField: function(field) {
+                const value = field.value.trim();
+                const type = field.type;
+                let isValid = true;
+                let errorMessage = '';
+                
+                if (field.required && !value) {
+                    isValid = false;
+                    errorMessage = `${this.getFieldLabel(field)} is required.`;
+                }
+                
+                if (type === 'email' && value) {
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(value)) {
+                        isValid = false;
+                        errorMessage = 'Please enter a valid email address.';
+                    }
+                }
+                
+                if (isValid) {
+                    this.clearError(field);
+                } else {
+                    this.showError(field, errorMessage);
+                }
+                
+                return isValid;
+            },
+            
+            validateForm: function() {
+                const inputs = this.form.querySelectorAll('input, textarea');
+                let isValid = true;
+                
+                inputs.forEach(input => {
+                    if (!this.validateField(input)) {
+                        isValid = false;
+                    }
+                });
+                
+                return isValid;
+            },
+            
+            handleSubmit: function() {
+                if (!this.validateForm()) {
+                    return;
+                }
+                
+                const submitBtn = PHI.utils.query('#submit-btn');
+                const originalText = submitBtn.textContent;
+                
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+                
+                setTimeout(() => {
+                    submitBtn.textContent = 'Message Sent!';
+                    
+                    setTimeout(() => {
+                        this.form.reset();
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = originalText;
+                        
+                        const errorElements = this.form.querySelectorAll('.phi-form-error');
+                        errorElements.forEach(error => {
+                            error.textContent = '';
+                        });
+                    }, 2000);
+                }, 1000);
+            },
+            
+            getFieldLabel: function(field) {
+                const label = this.form.querySelector(`label[for="${field.id}"]`);
+                return label ? label.textContent.replace('*', '').trim() : field.name;
+            },
+            
+            showError: function(field, message) {
+                const errorId = field.getAttribute('aria-describedby');
+                const errorElement = PHI.utils.query(`#${errorId}`);
+                
+                if (errorElement) {
+                    errorElement.textContent = message;
+                    errorElement.style.color = 'var(--color-primary)';
+                    errorElement.style.fontSize = 'var(--font-sm)';
+                    errorElement.style.marginTop = 'var(--space-xs)';
+                }
+                
+                field.style.borderColor = 'var(--color-primary)';
+                field.setAttribute('aria-invalid', 'true');
+            },
+            
+            clearError: function(field) {
+                const errorId = field.getAttribute('aria-describedby');
+                const errorElement = PHI.utils.query(`#${errorId}`);
+                
+                if (errorElement) {
+                    errorElement.textContent = '';
+                }
+                
+                field.style.borderColor = '';
+                field.setAttribute('aria-invalid', 'false');
+            }
+        };
+
+        PHI.accessibility = {
+            init: function() {
+                try {
+                    this.setupKeyboardNavigation();
+                    this.setupFocusManagement();
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Accessibility Init');
+                }
+            },
+            
+            setupKeyboardNavigation: function() {
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Tab' && PHI.navigation.isOpen) {
+                        this.trapFocus(e, PHI.navigation.navMenu);
+                    }
+                });
+            },
+            
+            setupFocusManagement: function() {
+                const skipLink = PHI.utils.query(PHI.config.selectors.skipLink);
+                if (skipLink) {
+                    skipLink.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const target = PHI.utils.query(skipLink.getAttribute('href'));
+                        if (target) {
+                            target.focus();
+                            target.scrollIntoView();
+                        }
+                    });
+                }
+            },
+            
+            trapFocus: function(e, container) {
+                const focusableElements = container.querySelectorAll(
+                    'a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+                );
+                
+                const firstElement = focusableElements[0];
+                const lastElement = focusableElements[focusableElements.length - 1];
+                
+                if (e.shiftKey) {
+                    if (document.activeElement === firstElement) {
+                        lastElement.focus();
+                        e.preventDefault();
+                    }
+                } else {
+                    if (document.activeElement === lastElement) {
+                        firstElement.focus();
+                        e.preventDefault();
+                    }
+                }
+            }
+        };
+
+        PHI.performance = {
+            init: function() {
+                try {
+                    this.optimizeViewport();
+                    this.setupResizeHandler();
+                } catch (error) {
+                    PHI.utils.handleError(error, 'Performance Init');
+                }
+            },
+            
+            optimizeViewport: function() {
+                const setViewportHeight = () => {
+                    const vh = window.innerHeight * 0.01;
+                    document.documentElement.style.setProperty('--vh', `${vh}px`);
+                };
+                
+                setViewportHeight();
+                
+                window.addEventListener('orientationchange', () => {
+                    setTimeout(setViewportHeight, 100);
+                });
+            },
+            
+            setupResizeHandler: function() {
+                let resizeTimer;
+                
+                const handleResize = () => {
+                    clearTimeout(resizeTimer);
+                    resizeTimer = setTimeout(() => {
+                        this.optimizeViewport();
+                        
+                        if (typeof console !== 'undefined') {
+                            const viewport = PHI.utils.getViewport();
+                            console.log('Viewport updated:', viewport);
+                        }
+                    }, 250);
+                };
+                
+                window.addEventListener('resize', handleResize);
+            }
+        };
+        
+        PHI.app = {
+            init: function() {
+                try {
+                    console.log('PHICODE Framework v5 - Refactored - Initializing...');
+                    
+                    PHI.navigation.init();
+                    PHI.scroll.init();
+                    PHI.animation.init();
+                    PHI.form.init();
+                    PHI.accessibility.init();
+                    PHI.performance.init();
+                    
+                    console.log('PHICODE Framework v5 - Refactored - Ready');
+                    
+                    console.log(`Golden Ratio: φ = ${PHI.config.phi}`);
+                    console.log('Viewport:', PHI.utils.getViewport());
+                    
+                } catch (error) {
+                    PHI.utils.handleError(error, 'App Init');
+                }
+            },
+            
+            destroy: function() {
+                try {
+                    PHI.animation.destroy();
+                    
+                    console.log('PHICODE Framework v5 - Refactored - Destroyed');
+                } catch (error) {
+                    PHI.utils.handleError(error, 'App Destroy');
+                }
+            }
+        };
+
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', PHI.app.init);
+        } else {
+            PHI.app.init();
+        }
+        window.addEventListener('beforeunload', PHI.app.destroy);
+        window.PHI = PHI;
+    </script>
+</body>
+</html>

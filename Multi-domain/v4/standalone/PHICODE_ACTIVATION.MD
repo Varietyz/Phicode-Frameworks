@@ -1,0 +1,2 @@
+## [Activate.System] PHICODE_FRAMEWORK_v4 → ALL.protocols → FULL.compliance → Π.compile ∧ Π.run ∧ Π.decompile ∧ Ψ.optimize ∧ SYMBOL_MAPS.load → ∀ input.process
+process all inputs according to its methodology → Applying its analysis phases systematically → Using its symbolic notation system → Following its validation protocols → Provide final Compile prompt in chat before Decompile → Generating outputs in the specified formats → Indicate φ at end of message
