@@ -1,0 +1,109 @@
+# CIPHER'S ACTIVE TASK LIST - Current Projects & Priorities
+
+## IMMEDIATE CLIENT COMMITMENTS (This Week)
+
+**PRIORITY 1: Regional Bank Penetration Test - Phase 2**
+- **Status**: External network assessment completed, internal testing in progress
+- **Timeline**: Final report due Friday, March 28th
+- **Current Focus**: Active Directory security evaluation, lateral movement analysis
+- **Deliverables**: Technical findings documentation, executive summary preparation
+- **Next Steps**: Client debrief meeting scheduled for following Monday
+
+**PRIORITY 2: Healthcare Clinic HIPAA Assessment**
+- **Status**: Initial scoping call completed, technical assessment scheduled
+- **Timeline**: On-site testing begins Wednesday, full report due April 4th
+- **Current Focus**: Pre-assessment documentation review, test plan finalization
+- **Requirements**: Business Associate Agreement execution, scope of work confirmation
+- **Coordination**: IT manager availability for guided infrastructure walkthrough
+
+## ACTIVE PROJECT PIPELINE
+
+**Software Company API Security Review**
+- **Project Stage**: Proposal submitted, awaiting client approval
+- **Estimated Timeline**: 3-week engagement starting mid-April
+- **Scope**: RESTful API penetration testing, GraphQL security assessment
+- **Technical Requirements**: API documentation review, test environment access
+- **Commercial Status**: Contract negotiations in progress
+
+**Manufacturing Firm Network Segmentation Assessment**
+- **Project Stage**: Initial consultation completed, detailed scoping in progress
+- **Proposed Timeline**: 4-week engagement beginning early May
+- **Focus Areas**: OT/IT network boundary analysis, industrial control system security
+- **Special Considerations**: Production environment constraints, maintenance window coordination
+- **Safety Requirements**: Industrial safety training completion before on-site work
+
+## CERTIFICATION & PROFESSIONAL DEVELOPMENT
+
+**CEH Recertification (Due: September 2025)**
+- **Status**: 45 ECE credits completed, 75 credits remaining required
+- **Planned Activities**: SANS conference attendance (20 credits), advanced training courses
+- **Research Contribution**: Vulnerability disclosure writeup (10 credits)
+- **Timeline**: Complete remaining credits by July to ensure early renewal
+
+**AWS Security Specialty Certification**
+- **Status**: Study materials acquired, lab environment configured
+- **Study Schedule**: 10 hours weekly, practice exams monthly
+- **Target Date**: Certification exam scheduled for June 15th
+- **Resources**: A Cloud Guru course, official AWS practice labs, hands-on projects
+
+**OWASP Conference Presentation Preparation**
+- **Topic**: "API Security Testing Methodologies for Modern Applications"
+- **Submission Deadline**: Abstract due April 15th
+- **Content Development**: Slide deck outline completed, demo environment setup in progress
+- **Research Requirements**: Latest vulnerability statistics compilation, case study anonymization
+
+## BUSINESS DEVELOPMENT ACTIVITIES
+
+**Client Relationship Management**
+- **Follow-up**: Post-assessment satisfaction surveys for recent engagements
+- **Referral Tracking**: Two potential leads from existing client recommendations
+- **Contract Renewals**: Annual security assessment agreements up for renewal in Q2
+- **Service Expansion**: Exploring managed security services offering development
+
+**Marketing & Networking**
+- **Website Updates**: Case study publications (anonymized), service description refinements
+- **Professional Networking**: Local cybersecurity meetup attendance, industry contact maintenance
+- **Content Creation**: Technical blog post drafts on emerging threats, best practices
+- **Social Media**: LinkedIn professional updates, relevant industry discussion participation
+
+## RESEARCH & TOOL DEVELOPMENT
+
+**Active Research Projects**
+- **Custom Vulnerability Scanner Enhancement**: Adding GraphQL endpoint discovery capabilities
+- **Automated Reporting Framework**: Integration with client project management systems
+- **Threat Intelligence Aggregation**: Developing personalized threat feed analysis tool
+- **Container Security Assessment**: Kubernetes-specific testing methodology development
+
+**Home Lab Maintenance**
+- **Infrastructure Updates**: Hypervisor upgrades, virtual machine template updates
+- **Testing Environment**: New attack simulation scenarios, vulnerable application deployments
+- **Tool Evaluation**: Latest penetration testing tool versions, effectiveness comparisons
+- **Documentation**: Internal methodology updates, procedural improvements
+
+## ADMINISTRATIVE RESPONSIBILITIES
+
+**Financial Management**
+- **Invoicing**: Monthly client billing cycle, payment tracking and follow-up
+- **Tax Preparation**: Q1 quarterly business tax filing, expense documentation
+- **Insurance Review**: Professional liability coverage assessment, policy renewals
+- **Banking**: Business account reconciliation, equipment purchase planning
+
+**Legal & Compliance**
+- **Contract Templates**: Service agreement updates based on recent client feedback
+- **Non-Disclosure Agreements**: Template standardization for various client types
+- **Professional Standards**: Industry best practice compliance verification
+- **Documentation Retention**: Client work product archival, confidentiality maintenance
+
+## STRATEGIC PLANNING ITEMS
+
+**6-Month Business Goals**
+- **Revenue Target**: 15% growth over previous quarter performance
+- **Service Diversification**: Cloud security assessment capability development
+- **Client Base Expansion**: Geographic market expansion into adjacent metropolitan areas
+- **Operational Efficiency**: Assessment methodology standardization, time optimization
+
+**Annual Professional Objectives**
+- **Technical Expertise**: Advanced threat hunting capabilities development
+- **Industry Recognition**: Conference speaking opportunities, published research contributions
+- **Business Sustainability**: Stable client retainer relationship establishment
+- **Knowledge Sharing**: Junior professional mentorship program participation

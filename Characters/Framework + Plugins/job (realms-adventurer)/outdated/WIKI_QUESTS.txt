@@ -1,0 +1,1088 @@
+Guide
+Any experience lamps or book of knowledge received through random events or Achievement Diaries can be used on any skill of the player's choosing, either to shorten the next bit of training in the guide or to save time later on, although for ironmen it is recommended to use them on HerbloreHerblore. If a player is planning to train Herblore or Construction past those requirements necessary to complete all quests, they should consider prioritising the use of lamps or optional quest rewards toward those skills. When Slayer is trained on the side, it is recommended to use Konar as soon as possible, due to the possibility to loot Magic logs from the Brimstone chest, these are required for Desert Treasure I.
+
+Somewhat experienced players ought to use their player-owned house to teleport across Gielinor to finish various quests. At level 50 Construction you can use portal chambers, mounted glories and oak altars. But the more useful unlocks, such as additional teleportation options and stat-restoring features, require substantially higher Construction levels and are therefore rather expensive. To get there you want to use the Teleport to house tablets, which can also be used as emergency teleports.
+
+New players on a budget should use games necklace(8) to teleport around or for access to a bank. You should also look at finishing some diaries to get your hands on some unlimited teleports which will be of great use throughout the game. Notable examples include the Ardougne cloak 1 which gives you unlimited teleport close to an altar to restore your Prayer, and from where you can run east to a fairy ring or west to a spirit tree. It also gives access to the Ardougne area early in the game, which is very useful. The Ectophial is useful for emergency teleports and for getting to the Morytania area.
+
+Notable quest unlocks
+The quests below list some of the more notable unlockable content, teleportation methods, equipment, and locations. The quests below are not listed in any specific order.
+
+Skill unlocks:
+Druidic Ritual — Unlocks Herblore and the ability to use lamps and books of knowledge on Herblore
+Rune Mysteries — Unlocks the ability to use lamps and books of knowledge on Runecraft
+Tears of Guthix — Unlocks weekly access to a minigame that rewards experience in the player's lowest skill, which is useful in aiding progress towards skilling goals
+Desert Treasure I — Unlocks the ability to use Ancient Magicks
+A Kingdom Divided — Unlocks 24 Arceuus spells: combat spells with the exception of Ghostly Grasp and Inferior Demonbane, and utility spells with the exception of Resurrect Crops and Reanimation spells (These seven spells are already unlocked upon changing spellbooks without needing to complete A Kingdom Divided)
+Lunar Diplomacy — Unlocks the ability to use Lunar spellbook
+Dream Mentor — Unlocks the Lunar spells: Monster Examine, Humidify, Hunter Kit, Stat Spy, Dream, Plank Make, Spellbook Swap
+King's Ransom — Unlocks Chivalry and Piety prayers
+Area unlocks
+Children of the Sun – Unlocks Varlamore
+Priest In Peril – Unlocks Morytania
+Bone Voyage – Unlocks Fossil Island
+Throne of Miscellania – Unlocks Managing Miscellania
+Regicide – Unlocks Tirannwn
+Mourning's End Part I – Unlocks Lletya
+Song of the Elves – Unlocks Prifddinas
+Making Friends with My Arm – Unlocks Weiss
+Sins of the Father – Unlocks Darkmeyer
+Cabin Fever - Unlocks Mos Le'Harmless
+Perilous Moons - Unlocks Cam Torum and Neypotzli
+The Heart of Darkness - Unlocks Ruins of Tapoyauik
+Below Ice Mountain – Unlocks Ruins of Camdozaal
+Transportation unlocks:
+Plague City – Unlocks Ardougne Teleport (Tablet teleport and spellbook teleport)
+Enlightened Journey – Unlocks the balloon transport system
+Fairytales Part 1 and start Part 2 – Access to fairy rings
+Tree Gnome Village – Unlock spirit tree teleports
+The Grand Tree – Unlocks gnome glider transportation
+Ghosts Ahoy – Unlocks Ectophial and free passage to Port Phasmatys
+Watchtower – Unlocks Watchtower Teleport (Tablet teleport and spellbook teleport)
+A Taste of Hope – Unlocks Drakan's medallion
+Eadgar's Ruse – Unlocks Trollheim teleport
+Shilo Village – Unlocks Shilo Village cart system
+Client of Kourend – Unlocks Kourend Castle Teleport (Tablet teleport and spellbook teleport)
+Twilight's Promise – Unlocks the Quetzal Transport System
+Another Slice of H.A.M. – Unlocks the Dorgesh-Kaan–Keldagrim train system
+Eagles' Peak – Unlocks the eagle transport system
+Equipment unlocks:
+The Great Brain Robbery – Unlocks the barrelchest anchor
+Dwarf Cannon – Unlocks the dwarf multicannon
+Dragon Slayer I – Ability to use green d'hide body and rune platebody
+Dragon Slayer II – Ability to create Ava's assembler
+Family Crest – Unlocks steel gauntlets
+Animal Magnetism – Unlocks Ava's device
+The Slug Menace – Unlocks proselyte armour
+Recipe for Disaster – Completion of the subquests unlocks better Culinaromancer's gloves
+Lost City – Ability to use the dragon dagger and the dragon longsword
+Sins of the Father - Unlocks Blisterwood flail (and A Taste of Hope unlocks Ivandis flail)
+Heroes' Quest – Ability to use dragon battleaxe
+Monkey Madness I – Ability to use dragon scimitar
+Monkey Madness II – Ability to use the heavy ballista
+The Fremennik Isles – Unlocks helm of Neitiznot
+The Fremennik Exiles – Unlocks Neitiznot faceguard
+Haunted Mine – Unlocks salve amulet
+Beneath Cursed Sands – Unlocks Keris partisan (and Contact! will unlock Keris)
+Below Ice Mountain – Unlocks Imcando hammer
+Priest in Peril — Unlocks the Wolfbane dagger
+Nature Spirit — Unlocks Druid pouch and Silver sickle (b)
+Recruitment Drive – Unlocks initiate armour
+The Path of Glouphrie – Unlocks access to Warped sceptre drop
+[uncheck all]
+Quests with the highest skill requirements
+The quests requiring the highest skill levels, along with the levels required (some without boosts) are:
+
+Skill	Level	Quest
+Agility Agility	70	Song of the Elves
+Attack Attack	50	Sins of the Father
+Construction Construction	70	Song of the Elves
+Cooking Cooking	70	Recipe for Disaster (Freeing King Awowogei)
+Crafting Crafting	70	Monkey Madness II
+Defence Defence	65	King's Ransom
+Farming Farming	70	Song of the Elves
+Firemaking Firemaking	75	Desert Treasure II - The Fallen Empire
+Fishing Fishing	62	Swan Song
+Fletching Fletching	60	Sins of the Father
+Herblore Herblore	70	Song of the Elves
+Hitpoints Hitpoints	50	Dragon Slayer II
+Hunter Hunter	70	Song of the Elves
+Magic Magic	75	Dragon Slayer II/Desert Treasure II - The Fallen Empire
+Mining Mining	72	Making Friends with My Arm
+Prayer Prayer	50	The Great Brain Robbery
+Ranged Ranged	62	The Curse of Arrav
+Runecraft Runecraft	60	Desert Treasure II - The Fallen Empire
+Slayer Slayer	69	Monkey Madness II
+Smithing Smithing	70	Dragon Slayer II/Song of the Elves
+Strength Strength	60	The Path of Glouphrie
+Thieving Thieving	72	While Guthix Sleeps
+Woodcutting Woodcutting	71	Grim Tales
+Combat level Combat level	85	Dream Mentor
+Quest points Quest points	200	Dragon Slayer II
+Questing Order
+This list does not include suggestions for combat levels. Boss fights might prove to be very challenging to do with the stats listed here. Always make sure to train up your combat stats to a level at which you're confident you can kill or survive dangerous parts of the listed quests.
+If the additional info mentions: "Buy 3 silk" for example, do not hesitate to use the silk in a certain quest afterwards, that's why it was mentioned. Not every mention of the need to buy something has a direct mention of why to do this. So do not hesitate to use the items you have gathered. Make sure to stock enough common items, like ropes, buckets, pots, etc. If you encounter other useful tools like moulds, axes and fishing equipment make sure to bank those as well. Have a look at tools page for a useful list.
+
+Hover over a skill reward in the "New levels after finishing quest" column to see the exact total experience in the listed skill after completing the quest.
+
+
+Display name
+Old School RuneScape Quest Guide
+Quest/Action	QG	New levels after quest	Quest points	Total QP	Additional info	Location
+Tutorial Island	N/A	
+10 Hitpoints Hitpoints
+0	0	Optional: When you arrive in Lumbridge, chop trees around Lumbridge Castle until 12 Woodcutting to access the canoe transport system (fletch the logs into arrow shafts or burn them. A knife can be found in the kitchen on a crate in Lumbridge Castle).	Lumbridge
+Cook's Assistant	QG	
+4 Cooking Cooking
+1	1	Bring an empty pot and bucket from Tutorial Island and coins to buy a spade. Gather the egg, flour, and milk on the west side of the River Lum. Optional take 2 coins for a bucket from the Lumbridge General Store or from the cellar beneath the kitchen in Lumbridge Castle; the extra milk will be used in Gertrude's Cat.
+When gathering the grain, fill your inventory with grain and grind it all at the windmill. You can leave the flour in the bin to be picked up later, and this will save time in the future.
+Kill chicken when taking the egg, pick up feathers for Client of Kourend and the raw chicken for Druidic Ritual. Note: for hardcore ironmen, it is highly recommended to kill chickens here until 15 Hitpoints or to complete Witch's House on the final step of Rune Mysteries, for the Waterfall Quest.
+Start Sheep Shearer while gathering the ingredients (you can fit 20 wool in the inventory).
+Kill a cow in the cow pen and take the meat (for Druidic Ritual).
+Start X Marks the Spot on the way back to Lumbridge Castle (pick up a spade at the Lumbridge General Store if necessary).
+Lumbridge
+Sheep Shearer	QG	
+3 Crafting Crafting
+1	2	Spin the wool after turning in the ingredients for Cook's Assistant. While in Lumbridge Castle, speak to Duke Horacio to start Rune Mysteries. Before turning in the wool:
+Dig by Bob's Axe Shop for X Marks the Spot.
+Start The Restless Ghost in the chapel.
+Lumbridge
+Misthalin Mystery	QG	
+7 Crafting Crafting
+1	3	Travel from Lumbridge into the swamps to complete Misthalin Mystery. Start by boarding the rowboat south of the quest giver.	Lumbridge
+The Restless Ghost	QG	
+9 Prayer Prayer
+1	4	Go to Father Urhney in Lumbridge Swamp after completing Misthalin Mystery. Return through the swamp, and speak with the ghost.
+On the way from Lumbridge to Wizards' Tower:
+
+Talk to Duke Horacio and start Rune Mysteries.
+Dig for X Marks the Spot behind Lumbridge Castle on the way.
+Kill a giant rat behind Lumbridge Castle and take the raw rat meat (for Druidic Ritual).
+Before/After grabbing skull speak to Wizard Sedridor for Rune Mysteries in Wizards' Tower basement.
+Lumbridge
+X Marks the Spot	QG	
+4 Agility Agility
+1	5	During the quest while in Draynor start Vampyre Slayer. Take garlic from upstairs in the cupboard then buy 5 or 10 jugs of wine from Fortunato as early food. Use 300 experience reward on Agility Agility.	Lumbridge
+Witch's Potion	QG	
+4 Magic Magic
+1	6	While in Port Sarim:
+Start Pirate's Treasure.
+Take an eye of newt, 6 air, earth, and water runes from the Betty's Magic Emporium on the way to Rimmington.
+Buy a raw sardine and a small fishing net from Gerrant's Fishy Business in Port Sarim for Gertrude's Cat and an easy Karamja Diary task.
+Buy 3 pieces of cheese from Wydin's Food Store and one piece of Raw beef.
+Burn the raw beef at the range north of the food store (cook it twice).
+Take 12 extra onions in the onion field north of Rimmington to be turned in to yellow dye for future quests by using them on Aggie in Draynor.
+Rimmington
+Imp Catcher	QG	
+10 Magic Magic
+1	7	Camp the spawns of imps on the west side of the Karamja volcano for beads (alternate: just south of the Falador southern gate there are three spawns). If using volcano imps, complete the rum portion of Pirate's Treasure and take a rope from next to the poll booth in the Karamja General Store for the Waterfall Quest. Useful drops for future quests: cadava berries and jug of water.
+While in the area, use the small fishing net to catch any fish for the easy Karamja Diary.
+
+Wizards' Tower
+Client of Kourend	QG	
+10 Agility Agility
+1	8	Pick up the Orange dye in the Shayzien Styles shop, west of Jennifer (Shayzien), for the Goblin Diplomacy quest.
+Bring coins to travel to the various areas of Kourend using the Mine Cart network. Use both 500 experience rewards on AgilityAgility.
+
+Note: Consider training Magic whilst passing through Arceuus Library. 45 Magic will help with early game teleports and 55 Magic unlocks High Level Alchemy.
+
+Great Kourend
+Romeo & Juliet	QG		5	13	The first time in Varrock, there is a lot to do:
+Walking to Varrock from Port Sarim is a great time to collect your 10,000 coins from Stronghold of Security, also buy a bronze med helm in Barbarian Village for Black Knights' Fortress.
+You should now be at the step to visit Aubury in Varrock for Rune Mysteries.
+You should also be at the step to visit Dr Harlow at the Blue Moon Inn for Vampyre Slayer.
+If you got the rum from Karamja and delivered it to Redbeard Frank, open the chest upstairs in the Blue Moon Inn with the key.
+If planning to use magic for combat, buy an air staff from Zaff and roughly 300+ mind runes from Aubury.
+Purchase an iron chainbody from Horvik's Armour Shop for Black Knights' Fortress.
+Buy 3 silk from Thessalia's Fine Clothes for the easy Ardougne Diary. Also buy a pink skirt for Prince Ali Rescue.
+Varrock
+Gertrude's Cat	QG	
+12 Cooking Cooking
+1	14	Allows raising of cats. Raise a kitten to a cat to speed up Recipe for Disaster/Freeing Evil Dave. Complete Natural history quiz on your way past the museum. Start Daddy's Home and bring 3 waxwood logs, 10 regular logs, and 4500~ coins for required supplies when heading to the sawmill. Save the stew reward for The Queen of Thieves, and the chocolate cake for A Tail of Two Cats.
+Buy 90 steel nails at the Sawmill for Dragon Slayer I. You could also make a quick detour to South-East Varrock mine to mine a tin and copper for a bronze bar for the same Observatory Quest, otherwise you will have to do it sometime else.
+
+Note: Raw karambwanji is a stackable fish that can be fed to cats. Consider catching some on the next trip to Karamja
+
+Varrock
+Children of the Sun	QG		1	15	Allows access to Varlamore. Consider completing this quest whilst in Varrock Square during Gertrude's Cat to minimise time spent moving back and forth.
+Additionally, visit Varlamore once via Regulus Cento in order to unlock all other transportation methods to the region.
+
+Varrock
+Daddy's Home (miniquest)	QG	
+8 Construction Construction
+0	15	Complete while passing by Estate Agent during Gertrude's Cat.	Varrock
+Natural history quiz (miniquest)	N/A	
+9 Slayer Slayer
+9 Hunter Hunter
+0	15	Complete while passing by museum during Gertrude's Cat.	Varrock
+Rune Mysteries	QG		1	16	If you completed all the steps mentioned in other quests above, you should only need to return to the Wizards' Tower for the final step here. Unlocks the ability to use lamps and books of knowledge on the Runecraft skill. Afterwards,
+Optional: complete Pirate's Treasure if you did the stages in Karamja and Varrock.
+Optional: complete Witch's House if the extra Hitpoints are desired. This can be good for hardcore ironmen safety.
+If you didn't get it before, make sure to collect 3 pieces of snape grass for future quests from the Hobgoblin Peninsula to the North West of the Crafting Guild.
+Finally, use the ship west of Rimmington to travel to Ardougne.
+Lumbridge
+Tree Gnome Village	QG	
+28 Attack Attack
+2	18	Allows the use of spirit trees. Purchase a jug to fill with water for Monk's Friend, from Bolkoy's Village Shop upstairs.	Tree Gnome Village
+Monk's Friend	QG	
+13 Woodcutting Woodcutting
+1	19	Get the bucket near Brother Cedric and fill it with water at the well. Use the bucket of water on the empty jug to get a jug of water.	Ardougne
+Hazeel Cult	QG	
+11 Thieving Thieving
+1	20	If choosing the good side, remember there are two "rewards". The first is 5 coins. Find the poison in cupboard on1st floor[UK] (upstairs) for the second reward: 2,000 coins and 1,500 experience in Thieving Thieving.
+Choosing the bad side gives you the full reward at once.	Ardougne
+Plague City	QG	
+15 Mining Mining
+1	21	Purchase a bucket of milk, chocolate dust and dwellberries from Grand Tree Groceries.
+You can also bring a spade and get dwellberries from McGrubor's Wood. While in the wood, go west and dig up 3 red vine worm for Fishing Contest, Fairytale I - Growing Pains and Wanted!. Allows use of Ardougne teleport spell. Buy a Silver bar from the Ardougne Silver Stall for Nature Spirit.
+
+Ardougne
+Biohazard	QG	
+16 Thieving Thieving
+3	24	When in Rimmington buy a sickle mould at Rommik's Crafty Supplies for Nature Spirit (it's useful to buy all available moulds here, like the holy mould).
+Allows access to Combat Training Camp, should be the final requirement for the easy Ardougne Diary.
+Allows entry into West Ardougne through the main gates.
+
+Ardougne
+Fight Arena	QG	
+35 Attack Attack
+20 Thieving Thieving
+2	26	After finishing the easy Ardougne Diary, the Ardougne cloak 1 allows double death runes (200) for traded-in cats, useful for ironman accounts who don't want to train Runecraft to 65 early game. It is also one of the best easily-obtainable member capes in the early game. However, you might need to carry the antique lamp around for a while, as it can only be used on skills level 30 or above (highly recommended to use on Herblore) and cannot be banked.	Fight Arena
+Clock Tower	QG		1	27	Keep a bottle of rat poison for Ratcatchers.	Ardougne
+Sheep Herder	QG		4	31	Good luck and do not lose your sanity!	Ardougne
+Dwarf Cannon	QG	
+11 Crafting Crafting
+1	32	While at the Dwarven Mine, kill a black bear to the west and take the raw bear meat (for Druidic Ritual). Allows the use of the dwarf multicannon and allows smithing of cannonballs.
+Go Complete the Barbarian Assault tutorial for the minigame teleport. Start Alfred Grimhand's Barcrawl.
+
+Coal Trucks
+Waterfall Quest	QG	
+40 Attack Attack
+30 Strength Strength
+1	33	If you did not start Alfred Grimhand's Barcrawl yet, run north and start the quest while you are nearby. It is required in about 12 quests to have finished the Barcrawl. Complete the Barbarian Assault tutorial to use the minigame teleport.
+Start with the Blurberry Bar at the Grand Tree (also buy a Premade blurb' sp. for Death Plateau) and The Flying Horse Inn in Ardougne.
+
+Hardcore ironmen can choose to complete Witch's House first for the additional Hitpoints levels.
+
+With the completion of the Waterfall Quest you now have enough Quest Points for Dragon Slayer I. For Scorpion Catcher its recommended to have an anti-dragon shield. You'll need to start Dragon Slayer I at the Champion's Guild south of Varrock by talking to the Guildmaster. Then talk to Oziach in Edgeville, to then talk with the Guildmaster again and ask him all the questions. Now you can obtain your anti-dragon shield from Duke Horacio in the Lumbridge Castle.
+
+Baxtorian Falls
+Murder Mystery	QG	
+16 Crafting Crafting
+3	Sinclair Mansion	Bring an empty pot and bucket. In the kitchen of Sinclair Mansion, by combining a bucket of water and a pot of flour, you can bake two breads that you need in Merlin's Crystal and in Below Ice Mountain. While in Seer's Village visit the Forester's Arms for the Alfred Grimhand's Barcrawl.	Camelot
+Merlin's Crystal	QG		6	39	In Port Sarim:
+At the Food Store, buy cheese for Ratcatchers and ~8 redberries for The Knight's Sword, world hop if neccesary
+Buy a fishing bait for Recipe for Disaster/Freeing the Goblin generals
+Buy a eye of newt for Recipe for Disaster/Another Cook's Quest
+Buy a black wizard hat for Shadow of the Storm
+Visit The Rusty Anchor for Alfred Grimhand's Barcrawl
+In Varrock visit the Blue Moon Inn and optionally start Dragon Slayer I, If starting Dragon Slayer I go up to Jolly Boar Inn for Alfred Grimhands's Barcrawl and talk to Oziach for Dragon Slayer I
+
+Camelot
+Holy Grail	QG	
+31 Defence Defence
+29 Prayer Prayer
+2	41	The Black Knight Titan has very good Ranged and Magic defence, so attack and quickly move away from the Titan and you will not be hit.
+Bring a bucket to Entrana to fill it up with sand from the sandpit, also pick up some seaweed and the glassblowing pipe, you can directly create a candle lantern (with your black candle) for Rag and Bone Man I. Make an extra molten glass for the Observatory Quest. When in Brimhaven, visit the Dead Man's Chest for the Alfred Grimhand's Barcrawl; a quick detour to the Karamja Spirits Bar in Musa Point is useful as well.
+
+Camelot
+Druidic Ritual	QG	
+3 Herblore Herblore
+4	45	Grants access to the Herblore skill.	Taverley
+Witch's House	QG	
+24 Hitpoints Hitpoints
+4	49		Taverley
+Below Ice Mountain	QG		1	50	Visit the Rising Sun Inn in Falador for the Alfred Grimhand's Barcrawl.
+Start Black Knights' Fortress and grab a cabbage from the Edgeville Monastery for the same quest (optional: talk to Oziach from Dragon Slayer I).
+
+Asgarnia
+Black Knights' Fortress	QG		3	53	Speak to Sir Amik Varze again after completing the quest to start Recruitment Drive.	Falador
+Recruitment Drive	QG	
+29 Prayer Prayer
+10 Herblore Herblore
+14 Agility Agility
+1	54	Buy pots in the Falador General Store so that you have 8 in total for Rag and Bone Man I.
+Buy 4 woad leaves from Wyson the Gardener (for Goblin Diplomacy and Recipe for Disaster Goblin Generals). If you visit Draynor Village after you obtained the woad leaves, also bring some coins, 4 onions and 6 redberries to make dyes at Aggie.
+
+Falador
+Observatory Quest	QG	
+20 Crafting Crafting
+2	56	This quest has 12 variations of random rewards, which may include 875 experience in either Attack Attack, Strength Strength, or Defence Defence. Note: If you are level 1 in a specific combat style, you will not be assigned a constellation that gives experience in that combat skill.
+Visit the Dragon Inn in Yanille for the Alfred Grimhand's Barcrawl.
+
+Pick up the superantipoison (1) everytime you walk past it (so that you have about a full vial), it will be very useful for Scorpion Catcher.
+
+Castle Wars
+Priest in Peril	QG	
+30 Prayer Prayer
+1	57	Allows access to Morytania.
+Purchase a bag of salt from Mazchna for Icthlarin's Little Helper.
+Purchase around 20 raw trout from Rufus' Meat Emporium for Death Plateau if you do not plan on catching your own.
+During the quest visit the Jolly Boar Inn for the Alfred Grimhand's Barcrawl.
+When you are done with Priest in Peril you'll be closer to the Canifis Bank than to the one in Varrock.
+
+Paterdomus
+Rag and Bone Man I	QG	
+31 Prayer Prayer
+14 Cooking Cooking
+1	58	Start this quest to unlock the unique bone drops, but completion is optional until Rag and Bone Man II, which requires 40 Slayer.
+Players who have lost their ghostspeak amulet may obtain another one from Father Urnhey on their way to the Lumbridge Swamp Caves, as it is required for Nature Spirit.
+Optional (for the anti-dragon shield): after you killed the monsters south of Varrock talk to the Guildmaster in the Champions' Guild, then head north to Edgeville and talk to Oziach. After, go back to the Guildmaster and ask him all questions. When you are in the Lumbridge Swamp, pick up your anti-dragon shield from Duke Horacio.
+
+Paterdomus
+Nature Spirit	QG	
+32 Defence Defence
+26 Hitpoints Hitpoints
+25 Crafting Crafting
+2	60	You will need a ghostspeak amulet and a silver sickle.	Paterdomus
+Alfred Grimhand's Barcrawl (miniquest)	QG		0	60	Allows use of Barbarian Outpost Agility Course which is required in Scorpion Catcher and Horror from the Deep.	Barbarian Outpost
+Scorpion Catcher	QG	
+34 Strength Strength
+1	61	It is recommended to have started Dragon Slayer I to allow you to equip the anti-dragon shield.	Seers' Village
+Jungle Potion	QG	
+13 Herblore Herblore
+1	62	
+(First herb) Collect two extra grimy snake weed, one for Zogre Flesh Eaters and another for Legends' Quest.
+(Second herb) Collect one extra ardrigal for Legends' Quest.
+(Fourth herb) Collect an extra grimy volencia moss for Fairytale I.
+(Fifth herb) Collect an extra grimy rogue's purse for Zogre Flesh Eaters.
+If you have the means, kill a jogre while gathering the grimy rogue's purse from the cave to complete a easy Karamja Diary task. They can be flinched with the entrance pillar.
+
+Optional: Bring a small fishing net to catch stackable raw karambwanji for your kitten.
+
+After the quest you can purchase 10 breads from Jiminua's Jungle Store south of Brimhaven for Death Plateau.
+
+Tai Bwo Wannai
+Vampyre Slayer	QG	
+41 Attack Attack
+3	65	Begin the A Porcine of Interest quest while in Draynor Village.
+Bring 2 onions, 3 redberries (can be bought in Port Sarim), 2 of your woad leaves and at least 15 coins. To make blue, red, and yellow dye at Aggie in Draynor Village for Goblin Diplomacy (you can use the items on Aggie to quickly make dyes).
+
+For all Quests you need 6 yellow dyes, 6 red dyes, 5 blue dyes, some of which will be mixed together. And 3 of each primary so no extra trips are needed during Ghosts Ahoy.
+
+Draynor Village
+A Porcine of Interest	QG	
+13 Slayer Slayer
+1	66	During this quest you could also make the dyes.	Draynor Village
+Death Plateau	QG	
+41 Attack Attack
+1	67	For this quest you'll need an iron bar, which you cannot smith yet, however the Paladins in Ardougne (these can be safespotted) or the White Knights in Falador drop one regularly. There is also an iron bar spawn north-west of the Ferox Enclave, which you can easily get to using a Clan Wars minigame teleport.	Burthorpe
+Goblin Diplomacy	QG	
+25 Crafting Crafting
+5	72		Goblin Village
+The Queen of Thieves	QG	
+23 Thieving Thieving
+1	73	A stew is required, which was received as a quest reward from Gertrude's Cat or can be bought from Forester's Arms in Seers' Village for 20 coins. Trade the shop keeper in the Warrens General Store to complete a task for the easy Kourend & Kebos Diary. Additionally, buy three raw cod from Frankie's Fishing Emporium for the Pirate Pete section of Recipe for Disaster.	Port Piscarilius
+Train Agility Agility from level 14 to level 18
+The Depths of Despair	QG	
+21 Agility Agility
+1	74	Kill a sand crab whilst in the crab claw caves for an easy Kourend & Kebos Diary task.	Hosidius
+Mountain Daughter	QG	
+42 Attack Attack
+32 Prayer Prayer
+2	76	Start The Giant Dwarf quest near the camp to unlock the trapdoor shortcut from Grand Exchange and Blast Furnace minigame teleport. Completing the cutscene and conversation with Commander Veldaban unlocks it.
+While in Keldagrim, buy charcoal from Gunslik's Assorted Items for The Dig Site. You can also buy two ropes here for the same quest (buy 4 charcoal to cover all quests to come). Leave the area by talking to the Dwarven Boatman north-east of the river.
+
+Rellekka
+Train Agility Agility from level 21 to level 25
+The Grand Tree	QG	
+45 Attack Attack
+17 Magic Magic
+31 Agility Agility
+5	81	Allows use of gnome glider transportation system.
+When visiting Hazelmere buy a greenman's ale and pick up a rotten tomato in Yanille for Recipe for Disaster/Another Cook's Quest.
+
+
+When you complete The Grand Tree you'll have access to the Grand Tree mine, mine 4 coal (requires 30 Mining) for Elemental Workshop I, 8 coal for Elemental Workshop II, and a silver ore (requires 20 Mining) for Shadow of the Storm. Buy a gnome spice and an orange for Recipe for Disaster/Freeing the Goblin generals at the Grand Tree Groceries. Buy 2 vodka for Bone Voyage. Whenever you pass the Battlefield of Khazard spirit tree pick up the purple dye for the same quest.
+
+Tree Gnome Stronghold
+Tribal Totem	QG	
+25 Thieving Thieving
+1	82		Brimhaven
+The Dig Site	QG	
+32 Mining Mining
+19 Herblore Herblore
+2	84	The certificates can be returned to Curator Haig Halen at the Varrock Museum for a fruit blast which can be used in Recipe for Disaster: Another Cook's Quest.
+For The Golem you need to be at the Digsite and then at the Varrock Museum just like during The Dig Site, so this can be done in unison.
+
+If by this point the player has decided to level up their Firemaking skill to at least 49 (most likely for Wintertodt), it's a good idea to complete the Tears of Guthix quest ahead of this guide, so the unlocked minigame can be completed weekly as soon as possible.
+
+Varrock
+The Golem	QG	
+26 Crafting Crafting
+26 Thieving Thieving
+1	85	Finish the last part in Uzer of this quest.
+Don't forget to bring a hammer and a chisel to take the gems from the throne in the throne room.
+
+While taking the statuette from the museum, speak with Historian Minas on the 2nd floor. He should reward you an antique lamp worth 1,000 experience, which should be placed on Herblore.
+
+Uzer
+The Knight's Sword	QG	
+29 Smithing Smithing
+1	86	The White Knights at the quest's start have a good chance to drop 2 iron bars, which you need.
+Mine an extra blurite ore for the easy Falador Diary.
+
+Falador
+Sleeping Giants	QG	
+33 Smithing Smithing
+1	87	Unlocks Giants' Foundry.	Giants' Plateau
+Elemental Workshop I	QG	
+30 Crafting Crafting
+35 Smithing Smithing
+1	88	You can kill one of each of the elementals to complete an easy task for the Kandarin area. Bring supplies if you are going to do this during the quest to kill 4x level 35 enemies.
+(The earth elemental is not the one you wake up with a pickaxe.) You can also mine 3 additional elemental ore for part II and for the mind shield.
+
+Seers' Village
+Recipe for Disaster: Another Cook's quest	QG		1	89	When in Lumbridge smelt your silver ore into a silver bar for Shadow of the Storm (can also be done during the quest).	Lumbridge
+Recipe for Disaster: Goblin generals	QG	
+17 Cooking Cooking
+31 Crafting Crafting
+9 Farming Farming
+1	90		Goblin Village
+Demon Slayer	QG		3	93		Varrock
+Shadow of the Storm	QG	
+29 Magic Magic
+(or 27 Ranged)	1	94	Using the experience reward on Ranged allows you to skip tedious, early ranged levels before Dorgeshuun crossbow. Alternatively, you may use experience reward on Magic Magic, but its much easier to train Magic than Ranged early on.
+This quest is difficult without Protect from Magic at 37 Prayer, however if you flinch the quest boss you can do it quite comfortably without it.
+
+Six cut gems: two sapphires, two rubies and two emeralds, if you use a hammer and chisel on the demon's throne and had not yet removed them during The Golem.
+
+Al Kharid
+Elemental Workshop II	QG	
+35 Crafting Crafting
+38 Smithing Smithing
+1	95	Grants the ability to make and use elemental mind equipment.	Seers' Village
+Train Woodcutting Woodcutting from level 13 to level 15
+The Ribbiting Tale of a Lily Pad Labour Dispute	QG	
+19 Woodcutting Woodcutting
+1	96	Buy an iron spear from the Fortis Blacksmith for Tai Bwo Wannai Trio.	
+Train Woodcutting Woodcutting from level 19 to level 36
+Train Firemaking Firemaking from level 1 to level 16
+Lost City	QG		3	99	Grants the ability to make cosmic runes and to use the dragon dagger and the dragon longsword.	Lumbridge Swamp
+Fairytale I - Growing Pains	QG	
+45 Attack Attack
+30 Magic Magic
+20 Farming Farming
+2	101	Allows use of fairy rings by starting Fairytale II - Cure a Queen.	Draynor Village
+Shield of Arrav	QG		1	102		Varrock
+Creature of Fenkenstrain	QG	
+27 Thieving Thieving
+2	104		Canifis
+A Soul's Bane	QG	
+32 Defence Defence
+27 Hitpoints Hitpoints
+1	105	
+Re-enter the dungeon right after completing the quest to complete a medium Varrock Diary task.
+
+Digsite
+The Lost Tribe	QG	
+34 Mining Mining
+1	106	
+Allows access to Nardok's Bone Weapons where players can purchase the Dorgeshuun crossbow and bone bolts for early Ranged training.
+
+Lumbridge
+Death to the Dorgeshuun	QG	
+13 Ranged Ranged
+29 Thieving Thieving
+1	107	
+Make sure to keep a set of polished buttons from H.A.M. members for Animal Magnetism later.
+
+Lumbridge Swamp Caves
+Train Magic Magic from level 30 to level 33
+The Giant Dwarf	QG	
+33 Magic Magic
+19 Firemaking Firemaking
+36 Crafting Crafting
+39 Smithing Smithing
+35 Mining Mining
+30 Thieving Thieving
+2	109	Join the Purple Pewter while wearing a full set of H.A.M. robes for a 20 point head start during the Consortium section of the quest.
+Purchase a steel warhammer at Vigr's Warhammers while in Keldagrim for In Search of the Myreque.
+
+Keldagrim
+Another Slice of H.A.M.	QG	
+33 Prayer Prayer
+36 Mining Mining
+1	110	The ancient mace is cheap protection for God Wars Dungeon.	Dorgesh-Kaan
+Making History	QG	
+34 Prayer Prayer
+36 Crafting Crafting
+3	113		Outpost
+In Search of the Myreque	QG	
+45 Attack Attack
+33 Defence Defence
+34 Strength Strength
+27 Hitpoints Hitpoints
+36 Crafting Crafting
+2	115		Canifis
+Shades of Mort'ton	QG	
+37 Crafting Crafting
+22 Herblore Herblore
+3	118	It is recommended to make multiple serum 208 to use on Razmire Keelgan for the use of the building supplies store, or to receive drops from the afflicted villagers. (See "Cure rewards" under Serum 208.)
+Bring the diary of Herbi Flax to the Apothecary in Varrock for 335 Herblore experience.	Mort'ton
+In Aid of the Myreque	QG	
+46 Attack Attack
+34 Defence Defence
+35 Strength Strength
+38 Crafting Crafting
+2	120	A good tip for lower levels: Using efaritay's aid allows you to use weapons other than the silver sickle when equipped.
+A mithril bar is needed for this quest. One can be easily obtained by killing chaos dwarves in Taverley Dungeon.
+
+Canifis
+Bone Voyage	QG		1	121	Go talk to Historian Minas just up the stairs and tell him the information about the displays (option 2) to get the kudos from the quests you've done.
+Requires 100 kudos. If the guide has been followed closely, players should have 78 kudos before completion of Bone Voyage. To reach 100 kudos, find the four missing display cases by using the nearby cleaning site near Historian Minas.
+Group ironmen with a party member with at least level 25 Construction (boostable) can now start doing birdhouse runs. Other ironmen can get level 23 Construction now to start doing the runs (boost with tea), or wait for The Fremennik Isles.	Varrock
+Enter the Abyss (miniquest)	QG	
+9 Runecraft Runecraft
+0	121		Varrock
+Wanted!	QG	
+23 Slayer Slayer
+1	122		Falador
+The Feud	QG	
+37 Thieving Thieving
+1	123	Whilst in Pollnivneach, collect 3 buckets of Ugthanki dung for My Arm's Big Adventure, and 1 extra bucket for Forgettable Tale... before you return to Al Kharid to complete The Feud.	Al Kharid
+Troll Stronghold	QG		1	124	Grants the ability to make law runes.	Burthorpe
+Train Woodcutting Woodcutting from level 36 to level 45
+Troll Romance	QG	
+36 Strength Strength
+35 Agility Agility
+2	126	Arrg attacks with melee and ranged. He can be safe spotted at the west side entrance of the arena. If safe spotting, pray Protect from Missiles while getting in the safe spot, because he can hit up to 38.	Troll Country
+Dragon Slayer I	QG	
+40 Defence Defence
+42 Strength Strength
+2	128	Ability to use green d'hide body, rune platebody and dragon platebody
+Starting this quest unlocks dragon tasks for Slayer. The dragon tasks give low experience per hour, so it can be beneficial to not start this quest.	
+Horror from the Deep	QG	
+42 Strength Strength
+23 Ranged Ranged
+35 Magic Magic
+2	130	Grants the ability to buy God books. The book of war is cheap protection for God Wars Dungeon.	Lighthouse
+Train Ranged Ranged from level 23 to level 30
+Ernest the Chicken	QG		4	134	Prepare quest items for Animal Magnetism as well before heading to Draynor Manor.	
+Animal Magnetism	QG	
+45 Woodcutting Woodcutting
+9 Fletching Fletching
+38 Crafting Crafting
+25 Slayer Slayer
+1	135	A Holy Symbol can be blessed by the monk in the monastery near Edgeville.	
+Shilo Village	QG	
+39 Crafting Crafting
+2	137	After completing the quest, you can sell every item you obtained during the quest to Yanni Salika in Shilo Village for 2,000 — 100 each for the stone-plaque, tattered scroll, crumpled scroll, Bervirius notes and the bone key, 500 for the locating crystal, and 1000 for the beads of the dead.	
+Doric's Quest	QG	
+37 Mining Mining
+1	138		
+Train Ranged Ranged from level 30 to level 37
+Spirits of the Elid	QG	
+37 Prayer Prayer
+36 Magic Magic
+37 Thieving Thieving
+2	140	Especially useful for the large Prayer experience reward.	
+Icthlarin's Little Helper	QG	
+46 Woodcutting Woodcutting
+37 Agility Agility
+39 Thieving Thieving
+2	142	It is possible to obtain an agility potion(4) from the Possessed Priest at the end of the quest, which may be saved for use in Tai Bwo Wannai Trio.	Sophanem
+Ratcatchers	QG	
+40 Thieving Thieving
+2	144	After completing this quest you can start growing your adult cat into a wily cat, which is the best cat for catching hellrats.	
+Fishing Contest	QG	
+15 Fishing Fishing
+1	145		
+Recipe for Disaster: Dwarf	QG	
+19 Cooking Cooking
+26 Slayer Slayer
+1	146	Pick up a dwarven stout from Rohak.	
+Train Cooking Cooking from level 19 to level 20 (consider training to level 22 for efficiency)
+Ghosts Ahoy	QG	
+38 Prayer Prayer
+2	148	The quest unlocks Ectophial and gives free access to Port Phasmatys.	
+Train Cooking Cooking from level 20 to level 22
+Forgettable Tale...	QG	
+27 Cooking Cooking
+26 Farming Farming
+2	150	If you don't intend on brewing more, save 1 Dwarven Stout (m) from the Quest Reward to boost for Making Friends with My Arm.	
+Garden of Tranquillity	QG	
+30 Farming Farming
+2	152	You can use a hammer on some essence and grind the essence shards into dust before starting the quest to save yourself some space. Optionally, after completion you can wait up to 5 minutes and pick up a White tree fruit for the medium Varrock Diary.	
+Enlightened Journey	QG	
+46 Woodcutting Woodcutting
+25 Firemaking Firemaking
+40 Crafting Crafting
+32 Farming Farming
+1	153	Allows use of balloon transport system.
+If the 12 willow branches are obtained from planting the Auguste's sapling, it will require wait 4 hours for the willow tree to grow and then 5 more minutes per branch after checking its health. It may be more desirable to grow your own willow tree before even starting the quest.
+
+If you're growing your own willow tree during this quest, you should obtain an extra 6 willow branches so that you may complete the medium Falador Diary task of crafting a basket on the Falador farm loom.
+
+Recipe for Disaster: Evil Dave	QG	
+32 Cooking Cooking
+1	154	Gives access to spicy stews, which can be useful for boosting stats.	
+Big Chompy Bird Hunting	QG	
+37 Ranged Ranged
+33 Cooking Cooking
+10 Fletching Fletching
+2	156	Grants the ability to make ogre arrows.	
+Zogre Flesh Eaters	QG	
+37 Ranged Ranged
+17 Fletching Fletching
+25 Herblore Herblore
+1	157	It is recommended to train to level Prayer 43 Prayer before attempting Darkness of Hallowvale.	
+Train Herblore Herblore from level 25 to level 30
+Darkness of Hallowvale	QG	
+33 Herblore Herblore
+39 Agility Agility
+41 Thieving Thieving
+16 Construction Construction
+2	159	Use all three experience rewards on HerbloreHerblore.	
+Tower of Life	QG	
+40 Crafting Crafting
+42 Thieving Thieving
+18 Construction Construction
+2	161		Ardougne
+Recipe for Disaster: Pirate Pete	QG	
+33 Cooking Cooking
+17 Fishing Fishing
+40 Crafting Crafting
+39 Smithing Smithing
+1	162	Warning: Ironmen will have to make their own fishbowl, requiring 42 Crafting. Boost with a 2-dose orange spicy stew for a +2 boost or get it as a drop from killing mogres at 1/128 drop rate.	
+Tai Bwo Wannai Trio	QG	
+46 Attack Attack
+43 Strength Strength
+36 Cooking Cooking
+25 Fishing Fishing
+2	164	Warning: If the one raw karambwan obtained during the quest is burned, 65 Fishing is required to fish more and continue the quest.
+You must return to the brothers after completing the quest to claim all experience rewards.
+
+34 Herblore is required to make an Agility potion, alternatively obtain it from the Jekyll and Hyde random event by giving an irit leaf.
+
+Note: An Agility potion(4) is needed for the quest so 2 toadflax are required if you're making the potion yourself. You can acquire toadflax from the Brimhaven Agility Arena for 3 vouchers each if you lack the Farming level/seeds required to grow them.
+
+The Tourist Trap	QG	
+41 Smithing Smithing
+2	166	Choose Smithing Smithing for both experience rewards.
+The boss can be safespotted by talking to a guard and using said guard as an object to hide behind.	
+Train Fletching Fletching from level 17 to level 25
+Eadgar's Ruse	QG	
+37 Herblore Herblore
+1	167	Collect and keep two extra goutweed herbs from the storage for use in later quests.	
+My Arm's Big Adventure	QG	
+40 Herblore Herblore
+35 Farming Farming
+1	168	Requires 60% Tai Bwo Wannai Cleanup favour to start. May be worthwhile to get 100% for the medium Karamja Diary task before 'spending' the 60% on this quest.	
+The Fremennik Trials	QG	
+46 Attack Attack
+41 Defence Defence
+43 Strength Strength
+30 Hitpoints Hitpoints
+46 Woodcutting Woodcutting
+27 Fletching Fletching
+28 Fishing Fishing
+41 Crafting Crafting
+40 Agility Agility
+42 Thieving Thieving
+3	171		
+Train Construction Construction from level 18 to level 20
+Train Woodcutting Woodcutting from level 46 to level 56
+Train Crafting Crafting from level 41 to level 46
+The Fremennik Isles	QG	
+56 Woodcutting Woodcutting
+46 Crafting Crafting
+26 Construction Construction
+1	172	Start doing birdhouse runs after this quest.	
+Getting Ahead	QG	
+47 Crafting Crafting
+29 Construction Construction
+1	173		Kebos Lowlands
+Train Cooking Cooking from level 36 to level 41
+Recipe for Disaster: Lumbridge Guide	QG	
+37 Magic Magic
+1	174		
+Recipe for Disaster: Skrach Uglogwee	QG	
+38 Ranged Ranged
+56 Woodcutting Woodcutting
+47 Crafting Crafting
+1	175		
+Haunted Mine	QG	
+47 Strength Strength
+2	177	Alternatively can be left until you have 60+ combat stats as this quest has a difficult boss and unlocks no others.	
+Train Mining Mining from level 37 to level 40
+Watchtower	QG	
+41 Magic Magic
+4	181		
+Prince Ali Rescue	QG		3	184		
+Contact!	QG	
+42 Magic Magic
+43 Thieving Thieving
+1	185	Use  on Magic Magic.	
+Train Magic Magic from level 42 to level 46
+The Eyes of Glouphrie	QG	
+47 Magic Magic
+56 Woodcutting Woodcutting
+23 Runecraft Runecraft
+29 Construction Construction
+2	187		
+Temple of the Eye	QG	
+31 Runecraft Runecraft
+1	188	Unlocks Guardians of the Rift.	
+Train Firemaking Firemaking from level 25 to level 30
+Sea Slug	QG	
+33 Fishing Fishing
+1	189		
+Train Firemaking Firemaking from level 30 to level 40 (consider training to level 50 for efficiency)
+Olaf's Quest	QG	
+43 Defence Defence
+1	190		
+Train Firemaking Firemaking from level 40 to level 50
+Tears of Guthix	QG	
+47 Crafting Crafting
+1	191	Also allows access to the Tears of Guthix minigame, which provides experience in your lowest skill.	
+Train Ranged Ranged from level 38 to level 40
+Temple of Ikov	QG	
+42 Ranged Ranged
+33 Fletching Fletching
+1	192	Equip the ice arrows obtained during the quest alongside darts or throwing knives to avoid needing a yew shortbow.
+Side with the Guardians of Armadyl for the Armadyl pendant for cheap God Wars Dungeon protection.
+
+One Small Favour	QG	
+45 Smithing Smithing
+2	194	Use  on Smithing Smithing or HerbloreHerblore.	
+A Tail of Two Cats	QG	
+46 Smithing Smithing
+2	196	Use  on SmithingSmithing or HerbloreHerblore.	
+Train Smithing Smithing from level 46 to level 50
+Train Slayer Slayer from level 26 to level 30
+The Slug Menace	QG	
+47 Crafting Crafting
+44 Thieving Thieving
+33 Runecraft Runecraft
+1	197		
+Between a Rock...	QG	
+44 Defence Defence
+50 Smithing Smithing
+41 Mining Mining
+2	199		
+Monkey Madness I	QG	
+50 Attack Attack
+49 Defence Defence
+49 Strength Strength
+38 Hitpoints Hitpoints
+3	202	Talk to Daero for 35,000 experience in Attack Attack and Defence Defence and 20,000 experience in Strength Strength and Hitpoints Hitpoints.
+It is strongly recommended to train to level Prayer 43 Prayer before completing this quest.	
+Train Construction Construction from level 29 to level 34
+Train Hunter Hunter from level 9 to level 10 (consider training to level 12 for efficiency)
+Cold War	QG	
+48 Crafting Crafting
+41 Agility Agility
+34 Construction Construction
+1	203	While training Construction, consider building a workshop and crafting table 3 in your PoH to save time for this quest.	
+Train Hunter Hunter from level 10 to level 12
+The Ascent of Arceuus	QG	
+33 Runecraft Runecraft
+16 Hunter Hunter
+1	204		
+Train Hunter Hunter from level 16 to level 27
+Eagles' Peak	QG	
+29 Hunter Hunter
+2	206		
+Underground Pass	QG	
+51 Attack Attack
+42 Agility Agility
+5	211	Disciples of Iban always drop Zamorak robes. Stock up now as they will no longer be there after you complete the quest. Cheap protection for God Wars Dungeon.	
+Train Slayer Slayer from level 30 to level 42
+Skippy and the Mogres (miniquest)	QG		0	211	Required for killing mogres in Rag and Bone Man II (requires level 32 Slayer).	
+Rag and Bone Man II	QG	
+39 Prayer Prayer
+1	212		
+Lair of Tarn Razorlor (miniquest)	N/A	
+43 Slayer Slayer
+0	212		
+The Garden of Death	QG	
+38 Farming Farming
+1	213		
+Train Fishing Fishing from level 33 to level 50
+Train Prayer Prayer from level 39 to level 47
+Train Farming Farming from level 38 to level 40
+Rum Deal	QG	
+47 Prayer Prayer
+50 Fishing Fishing
+41 Farming Farming
+2	215		
+Pirate's Treasure	QG		2	217		
+Cabin Fever	QG	
+49 Crafting Crafting
+51 Smithing Smithing
+43 Agility Agility
+2	219		
+Train Prayer Prayer from level 47 to level 50
+The Great Brain Robbery	QG	
+50 Prayer Prayer
+49 Crafting Crafting
+36 Runecraft Runecraft
+35 Construction Construction
+2	221	Use  on Runecraft Runecraft for 5,000 experience.	
+Train Crafting Crafting from level 49 to level 50
+The Hand in the Sand	QG	
+44 Thieving Thieving
+1	222		
+Train Mining Mining from level 41 to level 45
+Enakhra's Lament	QG	
+48 Magic Magic
+50 Firemaking Firemaking
+50 Crafting Crafting
+46 Mining Mining
+2	224		
+Train Mining Mining from level 46 to level 50
+Train Cooking Cooking from level 41 to level 53
+Train Fishing Fishing from level 50 to level 53
+Heroes' Quest	QG	
+51 Attack Attack
+49 Defence Defence
+49 Strength Strength
+39 Hitpoints Hitpoints
+42 Ranged Ranged
+53 Cooking Cooking
+56 Woodcutting Woodcutting
+53 Fishing Fishing
+50 Firemaking Firemaking
+51 Smithing Smithing
+50 Mining Mining
+41 Herblore Herblore
+1	225		
+Throne of Miscellania	QG		1	226		
+Royal Trouble	QG	
+41 Hitpoints Hitpoints
+44 Agility Agility
+43 Slayer Slayer
+1	227		
+Train Magic Magic from level 48 to level 50
+Train Thieving Thieving from level 44 to level 53
+Desert Treasure I	QG	
+51 Magic Magic
+3	230	If lower than 75 Woodcutting or 58 Hunter and have yet to obtain magic logs skip forward to Legends Quest and chop dead yommi tree saplings to obtain them.	
+Curse of the Empty Lord (miniquest)	N/A		0	230	Requires starting Desert Treasure I and obtaining the ring of visibility.
+You can talk to Historian Minas to claim a 10,000 experience  antique lamp to use on a skill over level 50 in place of training skills later.	
+The General's Shadow (miniquest)	QG	
+44 Slayer Slayer
+0	230	Requires the ring of visibility.	
+Train Magic Magic from level 51 to level 59
+Train Mining Mining from level 50 to level 52
+Train Herblore Herblore from level 41 to level 45
+Train Agility Agility from level 44 to level 50
+A Taste of Hope	QG		1	231	Use the tome of experience on HerbloreHerblore and/or Prayer Prayer.	
+Family Crest	QG		1	232	While en route to kill Chronozon, grab 5 Red spiders' eggs from the Edgeville Wilderness Dungeon for the Wilderness Diary.	
+Legends' Quest	QG		4	236	Use the experience on either PrayerPrayer or HerbloreHerblore, as those are both relatively hard to train, and are useful or required in further quests.
+If using yommi trees to obtain magic logs, approximately 200 seeds are needed. Use the drop trick to obtain these from Ungadulu.
+
+To prevent a return trip, grab a Vanilla pod for Recipe for Disaster/Freeing Sir Amik Varze.
+
+Recipe for Disaster: Sir Amik Varze	QG	
+41 Hitpoints Hitpoints
+53 Cooking Cooking
+1	237		
+Train Farming Farming from level 41 to level 44 (boost to 47)
+All Easy Achievement Diaries	N/A		0	237	Use all  on HerbloreHerblore.	
+Medium Ardougne Diary	N/A		0	237	Use all  on HerbloreHerblore.	
+Medium Falador Diary	N/A		0	237		
+Medium Varrock Diary	N/A		0	237		
+Train Herblore Herblore from level 45 to level 48
+Train Fletching Fletching from level 33 to level 50
+Medium Kandarin Diary	N/A		0	237		
+Land of the Goblins	QG	
+53 Fishing Fishing
+48 Herblore Herblore
+50 Agility Agility
+53 Thieving Thieving
+2	239		
+Train Herblore Herblore from level 48 to level 53 (boost to 57)
+Train Farming Farming from level 44 to level 46 (boost to 49)
+Fairytale II - Cure a Queen	QG	
+53 Herblore Herblore
+53 Thieving Thieving
+2	241	
+Boost Farming with a garden pie purchased from the Cooks' Guild Pie Shop for 24 coins. Requires a chef's hat to enter.
+
+Tale of the Righteous	QG		1	242		
+The Forsaken Tower	QG		1	243		
+Train Agility Agility from level 50 to level 54
+A Kingdom Divided	QG	
+47 Slayer Slayer
+2	245	Unlocks more spells in the Arceuus spellbook.
+Use the antique lamp on Smithing Smithing or another hard skill to train.	Kourend
+Twilight's Promise	QG	
+53 Thieving Thieving
+1	246		
+Train Slayer Slayer from level 47 to level 48
+Perilous Moons	QG	
+54 Fishing Fishing
+51 Slayer Slayer
+37 Runecraft Runecraft
+32 Hunter Hunter
+2	248		
+Train Cooking Cooking from level 53 to level 65 (boost to 70)
+Recipe for Disaster: Awowogei	QG	
+65 Cooking Cooking
+54 Agility Agility
+1	249		
+Train Agility Agility from level 54 to level 56
+Regicide	QG	
+56 Agility Agility
+3	252		
+Roving Elves	QG	
+50 Strength Strength
+1	253		
+Train Ranged Ranged from level 42 to level 60
+Mourning's End Part I	QG	
+46 Hitpoints Hitpoints
+55 Thieving Thieving
+2	255		
+Mourning's End Part II	QG	
+57 Agility Agility
+2	257		
+Train Magic Magic from level 59 to level 65
+Train Crafting Crafting from level 50 to level 61
+Train Mining Mining from level 52 to level 60
+Lunar Diplomacy	QG	
+65 Magic Magic
+39 Runecraft Runecraft
+2	259		
+What Lies Below	QG	
+49 Defence Defence
+41 Runecraft Runecraft
+1	260		
+Train Defence Defence from level 49 to level 65
+King's Ransom	QG	
+65 Defence Defence
+65 Magic Magic
+1	261		
+Knight Waves Training Grounds (miniquest)	N/A	
+52 Attack Attack
+66 Defence Defence
+52 Strength Strength
+48 Hitpoints Hitpoints
+0	261		
+Train Magic Magic from level 65 to level 66
+Train Fishing Fishing from level 54 to level 57 (boost to 62 with admiral pie)
+Swan Song	QG	
+51 Prayer Prayer
+66 Magic Magic
+57 Fishing Fishing
+2	263		
+Recipe for Disaster: Defeating the Culinaromancer	QG		1	264	Use the  on a hard to train skill above level 50, such as Herblore, Prayer, or Smithing.	
+Train Agility Agility from level 57 to level 59
+Train Woodcutting Woodcutting from level 56 to level 71
+Train Thieving Thieving from level 55 to level 58
+Grim Tales	QG	
+49 Hitpoints Hitpoints
+71 Woodcutting Woodcutting
+53 Herblore Herblore
+59 Agility Agility
+58 Thieving Thieving
+46 Farming Farming
+1	265		
+Train Combat level Combat to 85 (Use Slayer to 69 for efficiency)
+Dream Mentor	QG	
+50 Hitpoints Hitpoints
+66 Magic Magic
+2	267		
+Train Hunter Hunter from level 32 to level 46
+At First Light	QG	
+53 Herblore Herblore
+46 Hunter Hunter
+35 Construction Construction
+1	268		
+Train Hunter Hunter from level 46 to level 52
+Train Smithing Smithing from level 51 to level 55
+Defender of Varrock	QG	
+55 Smithing Smithing
+53 Hunter Hunter
+2	270		
+Medium Wilderness Diary	N/A		0	270	Requires level 50 Slayer.	
+Medium Karamja Diary	N/A		0	270	Requires Fishing 60 Fishing to boost to 65.	
+Medium Kourend & Kebos Diary	N/A		0	270		
+Medium Lumbridge & Draynor Diary	N/A		0	270		
+Medium Morytania Diary	N/A		0	270		
+Train Smithing Smithing from level 55 to level 65
+Train Runecraft Runecraft from level 41 to level 50
+Devious Minds	QG	
+50 Fletching Fletching
+65 Smithing Smithing
+50 Runecraft Runecraft
+1	271		
+Train Slayer Slayer from level 51 to level 56
+The Path of Glouphrie	QG	
+54 Strength Strength
+66 Magic Magic
+58 Thieving Thieving
+57 Slayer Slayer
+2	273		
+The Heart of Darkness	QG	
+60 Mining Mining
+59 Agility Agility
+58 Thieving Thieving
+57 Slayer Slayer
+2	275		
+Train Crafting Crafting from level 61 to level 65
+Train Slayer Slayer from level 57 to level 60
+Train Runecraft Runecraft from level 50 to level 55
+Train Fishing Fishing from level 57 to level 60
+The Fremennik Exiles	QG	
+66 Crafting Crafting
+61 Slayer Slayer
+56 Runecraft Runecraft
+2	277		
+Train Fletching Fletching from level 50 to level 60
+Sins of the Father	QG		2	279		
+Train Agility Agility from level 59 to level 62
+Train Firemaking Firemaking from level 50 to level 55
+Beneath Cursed Sands	QG	
+62 Agility Agility
+2	281		
+Train Hunter Hunter from level 53 to level 60
+Train Agility Agility from level 62 to level 68
+Train Firemaking Firemaking from level 55 to level 66
+Train Slayer Slayer from level 61 to level 69
+Train Crafting Crafting from level 66 to level 70
+Train Mining Mining from level 60 to level 70 (boost to 72)
+Making Friends with My Arm	QG	
+66 Firemaking Firemaking
+70 Mining Mining
+68 Agility Agility
+36 Construction Construction
+2	283		
+Monkey Madness II	QG	
+68 Agility Agility
+59 Thieving Thieving
+69 Slayer Slayer
+60 Hunter Hunter
+4	287		
+Train Construction Construction from level 36 to level 37
+Medium Fremennik Diary	N/A		0	287		
+A Night at the Theatre	QG	
+67 Magic Magic
+2	289	Use both lamps on Magic Magic.	Meiyerditch
+Train Construction Construction from level 37 to level 50
+Train Magic Magic from level 67 to level 75
+Train Smithing Smithing from level 65 to level 70
+Train Thieving Thieving from level 59 to level 60
+Dragon Slayer II	QG	
+70 Smithing Smithing
+70 Mining Mining
+68 Agility Agility
+60 Thieving Thieving
+5	294		
+Train Agility Agility from level 68 to level 69
+Train Thieving Thieving from level 60 to level 64
+Secrets of the North	QG	
+69 Agility Agility
+65 Thieving Thieving
+61 Hunter Hunter
+2	296		
+Train Farming Farming from level 46 to level 65
+Train Thieving Thieving from level 65 to level 72
+Train Herblore Herblore from level 53 to level 65
+While Guthix Sleeps	QG	
+66 Herblore Herblore
+72 Thieving Thieving
+66 Farming Farming
+63 Hunter Hunter
+5	301		
+Train Agility Agility from level 69 to level 70
+Train Construction Construction from level 50 to level 70
+Train Farming Farming from level 66 to level 70
+Train Herblore Herblore from level 66 to level 70
+Train Hunter Hunter from level 63 to level 70
+Song of the Elves	QG	
+71 Woodcutting Woodcutting
+70 Smithing Smithing
+70 Mining Mining
+70 Herblore Herblore
+70 Agility Agility
+70 Farming Farming
+70 Hunter Hunter
+70 Construction Construction
+4	305		
+Train Firemaking Firemaking from level 66 to level 75
+Train Runecraft Runecraft from level 56 to level 60
+Desert Treasure II - The Fallen Empire	QG		5	310		
+All Skills quest XP rewards from this point do not impact any other quests, and therefore require no specific order of completion.
+The Corsair Curse	QG		2	312	

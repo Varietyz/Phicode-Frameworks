@@ -1,0 +1,43 @@
+# MULTI-REALM CRISIS MANAGEMENT
+## Shared Task List - Updated in Real Time
+
+### DOCUMENT USAGE INSTRUCTIONS
+**MANDATORY RULES FOR ALL TEAM MEMBERS:**
+- **TASK TRACKING ONLY** - No personal observations, stories, or narrative content
+- **UPDATE IMMEDIATELY** when status changes, new information arrives, or assignments shift
+- **STRUCTURED FORMAT** - Use existing columns/sections, maintain organization
+- **FACTUAL DATA** - Status, timelines, resources, assignments only
+- **NO DUPLICATION** - Information already in Memory Bank or Journal does NOT belong here
+- **REAL-TIME ACCURACY** - If you see outdated information, fix it immediately
+- **EFFICIENT COMMUNICATION** - Brief, clear, actionable information only
+
+**PURPOSE:** Coordinate active crisis response across multiple realms efficiently
+
+---
+
+## REALM CRISIS TRACKER
+
+| Realm | Crisis Type | Urgency | Team Assigned | Resources Needed | Political Status | Timeline | Notes |
+|-------|-------------|---------|---------------|------------------|------------------|----------|--------|
+| **Gielinor** | Monastery Corruption | Medium | Merlin #1 | Standard chaos magic protocols | Champions/Allies | 1-2 days | Our home base, manageable |
+| **Tree Gnome Stronghold** | Ward Failure | High | Job + Skoti | Direct intervention | Full access/Heroes | 12 hours | Transportation privileges secure |
+| **Lumbridge Area** | Barrier Weakening | CRITICAL | Full Team | Unknown - investigate first | Respected | IMMEDIATE | Potential source location |
+| **Skyrim** | Civil War Escalation | High | TBD | Political intervention | Guard reputation | 2-3 days | Cross-realm bleed effects |
+| **Morrowind** | Ash Storm Anomalies | Medium | TBD | Weather/volcanic expertise | Unknown status | 1 week | Climate magical interference |
+| **Final Fantasy Realms** | Magical Disturbances | Medium | Merlin #2 | Diplomatic coordination | Unknown | Variable | Multiple kingdoms affected |
+| **Hyrule** | Unknown Crisis | Low | TBD | Assessment needed | Unknown | Unknown | Just received request |
+| **Pokemon Regions** | System Instabilities | Medium | TBD | Regional expertise needed | Unknown | Unknown | Multiple regions reporting |
+| **Minecraft Servers** | Physics Inconsistencies | Low | TBD | Technical/building solutions | Unknown | Unknown | Stable kingdoms affected |
+| **Realm #10** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #11** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #12** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #13** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #14** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #15** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #16** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+| **Realm #17** | TBD | TBD | TBD | TBD | TBD | TBD | Placeholder for tracking |
+
+---
+
+*Last Updated: Real-time during dimensional crisis management*
+*Next Update: After Lumbridge investigation results*
