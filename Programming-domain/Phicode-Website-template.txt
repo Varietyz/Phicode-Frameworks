@@ -1,0 +1,463 @@
+# UNIVERSAL HTML WEBSITE TEMPLATE - PHICODE REPRESENTATION
+
+## [LOOKUP_MAPS] - HTML Template Symbols
+```javascript
+const HTML_PHICODE_SYMBOLIC_MAP = {
+    // Document Structure Operators
+    "DOCTYPE": "document_type_declaration",
+    "html": "root_container",
+    "head": "metadata_container", 
+    "body": "content_container",
+    "main": "primary_content_wrapper",
+    
+    // Layout Structure Operators
+    "nav": "navigation_component",
+    "section": "content_section_block",
+    "article": "content_article_unit",
+    "header": "section_header_component",
+    "footer": "page_footer_component",
+    "div": "generic_container",
+    
+    // Typography Elements
+    "h1": "primary_heading",
+    "h2": "secondary_heading", 
+    "h3": "tertiary_heading",
+    "p": "paragraph_text",
+    "span": "inline_text_wrapper",
+    "ul": "unordered_list",
+    "li": "list_item",
+    
+    // Interactive Elements
+    "a": "link_navigation",
+    "button": "interactive_action",
+    "form": "input_collection",
+    "input": "data_input_field",
+    
+    // Media Elements
+    "img": "image_display",
+    "svg": "vector_graphic",
+    
+    // CSS Property Categories
+    "layout": "structural_positioning",
+    "typography": "text_presentation",
+    "color": "visual_theming",
+    "animation": "motion_behavior",
+    "responsive": "adaptive_design",
+    "interaction": "user_feedback"
+};
+
+const CSS_OPERATOR_MAP = {
+    // Layout Operators
+    "display": "layout_method",
+    "position": "positioning_strategy",
+    "flex": "flexible_layout",
+    "grid": "grid_layout_system",
+    "z-index": "layer_hierarchy",
+    
+    // Typography Operators  
+    "font-family": "typeface_selection",
+    "font-size": "text_scale",
+    "font-weight": "text_emphasis",
+    "line-height": "text_spacing",
+    "color": "text_color",
+    
+    // Visual Operators
+    "background": "surface_appearance",
+    "border": "boundary_definition",
+    "box-shadow": "depth_simulation",
+    "border-radius": "corner_treatment",
+    
+    // Animation Operators
+    "transition": "state_change_motion",
+    "transform": "spatial_manipulation",
+    "animation": "keyframe_sequence",
+    
+    // Responsive Operators
+    "@media": "conditional_styling",
+    "clamp": "adaptive_scaling",
+    "min": "minimum_constraint",
+    "max": "maximum_constraint"
+};
+
+const JAVASCRIPT_BEHAVIOR_MAP = {
+    // Event Handling
+    "addEventListener": "event_binding",
+    "querySelector": "element_selection",
+    "classList": "class_manipulation",
+    "setAttribute": "attribute_modification",
+    
+    // DOM Manipulation
+    "createElement": "element_generation",
+    "appendChild": "element_attachment",
+    "removeChild": "element_removal",
+    "innerHTML": "content_injection",
+    
+    // Animation Control
+    "scrollIntoView": "scroll_navigation",
+    "setTimeout": "delayed_execution",
+    "requestAnimationFrame": "frame_synchronization",
+    
+    // User Interaction
+    "click": "user_activation",
+    "scroll": "viewport_movement",
+    "keydown": "keyboard_input",
+    "focus": "input_targeting"
+};
+```
+
+## [Π.HTML_TEMPLATE_COMPILE] - Universal Website Structure
+```
+HTML.Template.Architecture = ∀ website_component → systematic_representation ⟹ {
+    
+    // Document Foundation Layer
+    document.structure = {
+        declaration: "<!DOCTYPE html>" ∧ html5_standard ∧ ✓,
+        root: "<html lang='LANGUAGE_CODE'>" ∧ accessibility_compliance ∧ 📝,
+        metadata_container: "<head>" ∧ resource_definitions ∧ ⚠,
+        content_container: "<body>" ∧ main_presentation ∧ 🔍
+    },
+    
+    // Metadata Configuration Layer
+    head.components = ∀ meta_element → essential_definitions ⟹ {
+        charset: "UTF-8" ∧ unicode_support ∧ ✓,
+        viewport: "width=device-width, initial-scale=1.0" ∧ responsive_foundation ∧ 📊,
+        meta_description: "CONTENT_DESCRIPTION" ∧ seo_optimization ∧ 📝,
+        meta_keywords: "KEYWORD_LIST" ∧ search_optimization ∧ ⚠,
+        title: "PAGE_TITLE" ∧ browser_identification ∧ 🔍,
+        
+        resource.preloading = {
+            critical_fonts: "rel='preload' as='style'" ∧ performance_optimization ∧ ✓,
+            hero_images: "rel='preload' as='image'" ∧ visual_priority ∧ 📊,
+            external_stylesheets: "href='FONT_URL' rel='stylesheet'" ∧ typography_loading ∧ 📝
+        },
+        
+        framework.integration = {
+            css_framework: "TAILWIND_CDN_URL" ∧ utility_system ∧ ⚠,
+            custom_styles: "<style>" ∧ component_definitions ∧ 🔍
+        }
+    },
+    
+    // CSS Architecture Layer
+    styling.system = ∀ visual_component → systematic_theming ⟹ {
+        
+        custom.properties = {
+            color_system: {
+                "--primary-accent: COLOR_HEX" ∧ brand_consistency ∧ ✓,
+                "--primary-accent-hover: COLOR_HEX" ∧ interaction_feedback ∧ 📝,
+                "--primary-accent-rgb: R, G, B" ∧ alpha_transparency ∧ ⚠,
+                "--base-foundation: COLOR_HEX" ∧ background_theme ∧ 🔍,
+                "--elevated-surfaces: COLOR_HEX" ∧ depth_hierarchy ∧ 📊,
+                "--text-primary: COLOR_HEX" ∧ readability_optimization ∧ ✓,
+                "--text-secondary: COLOR_HEX" ∧ content_hierarchy ∧ 📝,
+                "--border-color: COLOR_HEX" ∧ boundary_definition ∧ ⚠
+            },
+            
+            animation_system: {
+                "--transition-base: TIMING_FUNCTION" ∧ motion_consistency ∧ 🔍,
+                "--shadow-base: SHADOW_DEFINITION" ∧ depth_simulation ∧ 📊,
+                "--shadow-elevated: SHADOW_DEFINITION" ∧ interaction_elevation ∧ ✓
+            },
+            
+            typography_system: {
+                primary_font: "'FONT_NAME', FALLBACK_STACK" ∧ text_rendering ∧ 📝,
+                display_font: "'DISPLAY_FONT', FALLBACK_STACK" ∧ heading_emphasis ∧ ⚠,
+                font_smoothing: "antialiased" ∧ text_quality ∧ 🔍
+            }
+        },
+        
+        component.definitions = ∀ ui_element → reusable_patterns ⟹ {
+            
+            enhanced_card: {
+                base_properties: "background ∧ border ∧ border-radius ∧ transition ∧ box-shadow" ∧ ✓,
+                pseudo_elements: "::before" ∧ shimmer_effect ∧ animation_enhancement ∧ 📝,
+                hover_states: "border-color ∧ transform ∧ box-shadow ∧ background" ∧ interaction_feedback ∧ ⚠,
+                animation_timing: "left: -100% → 100%" ∧ visual_interest ∧ 🔍
+            },
+            
+            enhanced_navigation: {
+                backdrop_filter: "blur(PIXEL_VALUE)" ∧ glassmorphism_effect ∧ 📊,
+                background_alpha: "rgba(R, G, B, ALPHA)" ∧ transparency_control ∧ ✓,
+                border_accent: "border-bottom ∧ accent_color" ∧ visual_separation ∧ 📝,
+                scroll_states: ".scrolled" ∧ dynamic_appearance ∧ ⚠
+            },
+            
+            enhanced_buttons: {
+                base_structure: "position: relative ∧ overflow: hidden" ∧ animation_container ∧ 🔍,
+                ripple_effect: "::before ∧ circle_expansion ∧ opacity_animation" ∧ tactile_feedback ∧ 📊,
+                primary_variant: "background ∧ color ∧ border" ∧ action_emphasis ∧ ✓,
+                secondary_variant: "transparent ∧ border ∧ color" ∧ secondary_action ∧ 📝,
+                hover_transforms: "translateY(-2px) ∧ box-shadow" ∧ elevation_feedback ∧ ⚠
+            },
+            
+            accent_borders: {
+                base_border: "border-left ∧ accent_color" ∧ visual_emphasis ∧ 🔍,
+                animated_expansion: "::before ∧ height: 0 → 100%" ∧ progressive_reveal ∧ 📊,
+                hover_trigger: ":hover ∧ animation_activation" ∧ interaction_response ∧ ✓
+            }
+        },
+        
+        responsive.system = ∀ breakpoint → adaptive_design ⟹ {
+            mobile_optimization: "@media (max-width: 768px)" ∧ small_screen_adaptation ∧ 📝,
+            typography_scaling: "clamp(MIN, PREFERRED, MAX)" ∧ fluid_text ∧ ⚠,
+            layout_adaptation: "single_column → multi_column" ∧ content_reflow ∧ 🔍,
+            navigation_transformation: "hamburger → horizontal" ∧ interface_adaptation ∧ 📊
+        },
+        
+        accessibility.enhancements = {
+            focus_indicators: ".focus-enhanced:focus" ∧ keyboard_navigation ∧ ✓,
+            reduced_motion: "@media (prefers-reduced-motion: reduce)" ∧ user_preferences ∧ 📝,
+            print_optimization: "@media print" ∧ document_output ∧ ⚠,
+            screen_reader: ".sr-only" ∧ assistive_technology ∧ 🔍
+        }
+    },
+    
+    // Body Structure Layer
+    body.architecture = ∀ layout_section → hierarchical_organization ⟹ {
+        
+        scroll_progress: {
+            element: "<div class='scroll-progress' id='scrollProgress'>" ∧ progress_indicator ∧ ✓,
+            positioning: "fixed ∧ top: 0 ∧ z-index: 1000" ∧ overlay_positioning ∧ 📝,
+            animation: "width: 0% → 100%" ∧ scroll_synchronization ∧ ⚠
+        },
+        
+        skip_navigation: {
+            element: "<a href='#main-content'>" ∧ accessibility_shortcut ∧ 🔍,
+            positioning: "sr-only ∧ focus:not-sr-only" ∧ keyboard_user_support ∧ 📊,
+            styling: "prominent_background ∧ high_contrast" ∧ visibility_priority ∧ ✓
+        },
+        
+        navigation.component = {
+            container: "<nav class='fixed top-0 w-full z-40' role='navigation'>" ∧ site_navigation ∧ 📝,
+            
+            desktop_menu: {
+                structure: "<div class='hidden md:block'>" ∧ large_screen_display ∧ ⚠,
+                menu_items: "<a href='#SECTION' class='STYLE_CLASSES' role='menuitem'>" ∧ navigation_links ∧ 🔍,
+                hover_effects: "transition-colors ∧ focus_enhancement" ∧ interaction_feedback ∧ 📊
+            },
+            
+            mobile_menu: {
+                toggle_button: "<button id='mobile-menu-btn' aria-expanded='false'>" ∧ menu_control ∧ ✓,
+                menu_container: "<div id='mobile-menu' class='mobile-menu' role='menu'>" ∧ mobile_navigation ∧ 📝,
+                animation: "transform: translateX(-100%) → translateX(0)" ∧ slide_transition ∧ ⚠,
+                backdrop: "backdrop-filter ∧ background_overlay" ∧ visual_separation ∧ 🔍
+            }
+        },
+        
+        main_content: {
+            wrapper: "<main id='main-content'>" ∧ primary_content_container ∧ 📊,
+            
+            hero.section = {
+                structure: "<section class='min-h-screen flex items-center justify-center'>" ∧ full_viewport ∧ ✓,
+                content_hierarchy: "logo → heading → subtitle → description → cta_buttons" ∧ information_flow ∧ 📝,
+                
+                logo.component: {
+                    element: "<img src='LOGO_URL' alt='DESCRIPTIVE_ALT' loading='eager'>" ∧ brand_identity ∧ ⚠,
+                    styling: "responsive_sizing ∧ hover_scaling ∧ shadow_effect" ∧ visual_enhancement ∧ 🔍,
+                    positioning: "centered ∧ prominent_placement" ∧ visual_hierarchy ∧ 📊
+                },
+                
+                typography.hierarchy: {
+                    primary_heading: "<h1 class='display-font RESPONSIVE_CLASSES'>" ∧ main_message ∧ ✓,
+                    subtitle: "<p class='RESPONSIVE_TEXT_CLASSES'>" ∧ supporting_message ∧ 📝,
+                    description: "<p class='max-w-2xl mx-auto'>" ∧ detailed_explanation ∧ ⚠
+                },
+                
+                call_to_action: {
+                    container: "<div class='flex flex-col sm:flex-row gap-4'>" ∧ button_grouping ∧ 🔍,
+                    primary_button: "<a class='btn-enhanced btn-primary'>" ∧ main_action ∧ 📊,
+                    secondary_button: "<a class='btn-enhanced btn-secondary'>" ∧ alternative_action ∧ ✓
+                }
+            },
+            
+            content.sections = ∀ section_type → standardized_pattern ⟹ {
+                
+                section_wrapper: {
+                    element: "<section id='SECTION_ID' class='py-20 px-4'>" ∧ content_container ∧ 📝,
+                    accessibility: "role='region' aria-labelledby='HEADING_ID'" ∧ semantic_structure ∧ ⚠,
+                    background_variants: "gradient_backgrounds ∨ card_backgrounds" ∧ visual_distinction ∧ 🔍
+                },
+                
+                heading.pattern: {
+                    element: "<h2 id='HEADING_ID' class='display-font RESPONSIVE_CLASSES'>" ∧ section_title ∧ 📊,
+                    positioning: "text-center ∧ margin-bottom ∧ accent_color" ∧ visual_prominence ∧ ✓,
+                    responsive_scaling: "clamp(1.5rem, 6vw, 2.5rem)" ∧ fluid_typography ∧ 📝
+                },
+                
+                content.grid_system: {
+                    container: "<div class='max-w-6xl mx-auto'>" ∧ content_constraint ∧ ⚠,
+                    grid_layout: "<div class='grid md:grid-cols-2 gap-8'>" ∧ responsive_columns ∧ 🔍,
+                    card_components: "<div class='card-enhanced p-8'>" ∧ content_containers ∧ 📊
+                },
+                
+                interactive.elements = {
+                    filter_buttons: "<button class='filter-btn' data-filter='CATEGORY'>" ∧ content_filtering ∧ ✓,
+                    character_cards: "<article class='character-card' data-category='TYPE'>" ∧ content_items ∧ 📝,
+                    download_buttons: "<button class='download-btn' data-resource='TYPE'>" ∧ action_triggers ∧ ⚠,
+                    progress_indicators: "validation_metrics ∧ percentage_display" ∧ data_visualization ∧ 🔍
+                }
+            }
+        },
+        
+        footer.component: {
+            structure: "<footer class='py-12 px-4 border-t' role='contentinfo'>" ∧ site_footer ∧ 📊,
+            content_hierarchy: "brand_name → copyright → description" ∧ legal_information ∧ ✓,
+            back_to_top: "<button id='back-to-top' class='btn-enhanced'>" ∧ navigation_aid ∧ 📝,
+            print_exclusion: "class='no-print'" ∧ print_optimization ∧ ⚠
+        }
+    },
+    
+    // JavaScript Behavior Layer
+    interactive.behaviors = ∀ user_interaction → systematic_response ⟹ {
+        
+        class.architecture: {
+            main_class: "PHICODEWebsite" ∧ organizational_structure ∧ 🔍,
+            constructor: "init() ∧ bindEvents() ∧ setupObservers()" ∧ initialization_sequence ∧ 📊,
+            element_caching: "this.elements = {DOM_REFERENCES}" ∧ performance_optimization ∧ ✓
+        },
+        
+        event.handling_system = {
+            smooth_scrolling: {
+                selector: "document.querySelectorAll('a[href^=\"#\"]')" ∧ anchor_links ∧ 📝,
+                behavior: "scrollIntoView({behavior: 'smooth'})" ∧ navigation_animation ∧ ⚠,
+                cleanup: "closeMobileMenu() ∧ focus_management" ∧ user_experience ∧ 🔍
+            },
+            
+            mobile_menu_control: {
+                toggle_function: "toggleMobileMenu()" ∧ menu_state_management ∧ 📊,
+                aria_updates: "setAttribute('aria-expanded', STATE)" ∧ accessibility_compliance ∧ ✓,
+                focus_management: "firstMenuItem.focus()" ∧ keyboard_navigation ∧ 📝,
+                outside_click: "handleOutsideClick()" ∧ intuitive_closure ∧ ⚠
+            },
+            
+            character_filtering: {
+                filter_activation: "handleCharacterFilter()" ∧ content_organization ∧ 🔍,
+                button_states: "aria-pressed ∧ visual_feedback" ∧ interaction_indication ∧ 📊,
+                card_animation: "opacity ∧ transform ∧ display_transitions" ∧ smooth_filtering ∧ ✓,
+                screen_reader: "announceToScreenReader()" ∧ accessibility_feedback ∧ 📝
+            },
+            
+            download_simulation: {
+                loading_states: "classList.add('loading') ∧ disabled_state" ∧ user_feedback ∧ ⚠,
+                progress_indication: "textContent_update ∧ visual_spinner" ∧ status_communication ∧ 🔍,
+                completion_feedback: "showNotification()" ∧ success_indication ∧ 📊,
+                state_restoration: "originalText ∧ enabled_state" ∧ interface_reset ∧ ✓
+            }
+        },
+        
+        scroll.management_system = {
+            throttled_events: "throttle(handleScroll, 16)" ∧ performance_optimization ∧ 📝,
+            
+            progress_tracking: {
+                calculation: "(scrollTop / docHeight) * 100" ∧ progress_percentage ∧ ⚠,
+                visual_update: "scrollProgress.style.width" ∧ progress_bar_animation ∧ 🔍,
+                smooth_transition: "transition: width 0.1s ease" ∧ fluid_motion ∧ 📊
+            },
+            
+            navigation_states: {
+                scroll_threshold: "scrollTop > 100" ∧ navbar_activation ∧ ✓,
+                appearance_change: "classList.add('scrolled')" ∧ visual_feedback ∧ 📝,
+                back_to_top_visibility: "opacity_transition ∧ scroll_threshold" ∧ contextual_display ∧ ⚠
+            }
+        },
+        
+        intersection.observer_system = {
+            section_tracking: "IntersectionObserver(entries)" ∧ viewport_monitoring ∧ 🔍,
+            navigation_highlighting: "active_section ∧ link_styling" ∧ position_indication ∧ 📊,
+            observer_options: "threshold: 0.3 ∧ rootMargin: '-100px'" ∧ precision_control ∧ ✓
+        },
+        
+        accessibility.enhancements = {
+            keyboard_navigation: "handleKeyNavigation()" ∧ keyboard_user_support ∧ 📝,
+            escape_key_handling: "closeMobileMenu() ∧ focus_restoration" ∧ intuitive_controls ∧ ⚠,
+            focus_indicators: "focus-enhanced ∧ outline_styling" ∧ visual_guidance ∧ 🔍,
+            screen_reader_announcements: "aria-live ∧ dynamic_content" ∧ assistive_technology ∧ 📊
+        },
+        
+        utility.functions = {
+            throttle_implementation: "timeoutId ∧ lastExecTime ∧ delay_calculation" ∧ performance_control ∧ ✓,
+            clipboard_functionality: "navigator.clipboard ∧ fallback_method" ∧ copy_feature ∧ 📝,
+            notification_system: "createElement ∧ styling ∧ auto_removal" ∧ user_feedback ∧ ⚠,
+            performance_monitoring: "performance.timing ∧ loadTime_calculation" ∧ optimization_data ∧ 🔍
+        }
+    },
+    
+    // Template Variables System
+    template.variables = ∀ customizable_content → systematic_replacement ⟹ {
+        
+        content.placeholders = {
+            site_identity: {
+                "SITE_NAME": "website_brand_name" ∧ identity_placeholder ∧ ✓,
+                "LOGO_URL": "brand_logo_image_source" ∧ visual_identity ∧ 📝,
+                "BRAND_COLOR": "primary_accent_color_hex" ∧ visual_theming ∧ ⚠
+            },
+            
+            metadata.variables: {
+                "PAGE_TITLE": "browser_tab_title" ∧ seo_optimization ∧ 🔍,
+                "CONTENT_DESCRIPTION": "meta_description_text" ∧ search_preview ∧ 📊,
+                "KEYWORD_LIST": "comma_separated_keywords" ∧ search_optimization ∧ ✓,
+                "LANGUAGE_CODE": "html_lang_attribute" ∧ internationalization ∧ 📝
+            },
+            
+            color.system_variables: {
+                "PRIMARY_ACCENT": "main_brand_color" ∧ theme_consistency ∧ ⚠,
+                "PRIMARY_HOVER": "interaction_feedback_color" ∧ user_feedback ∧ 🔍,
+                "BACKGROUND_DARK": "base_surface_color" ∧ foundational_theming ∧ 📊,
+                "TEXT_PRIMARY": "main_text_color" ∧ readability_optimization ∧ ✓
+            },
+            
+            typography.variables: {
+                "PRIMARY_FONT": "body_text_typeface" ∧ text_rendering ∧ 📝,
+                "DISPLAY_FONT": "heading_typeface" ∧ visual_hierarchy ∧ ⚠,
+                "FONT_WEIGHTS": "available_weight_variants" ∧ typographic_flexibility ∧ 🔍
+            },
+            
+            content.section_variables: {
+                "SECTION_ID": "unique_section_identifier" ∧ navigation_targeting ∧ 📊,
+                "HEADING_TEXT": "section_title_content" ∧ information_hierarchy ∧ ✓,
+                "DESCRIPTION_TEXT": "section_description_content" ∧ explanatory_text ∧ 📝,
+                "CTA_TEXT": "call_to_action_label" ∧ user_direction ∧ ⚠
+            },
+            
+            interactive.element_variables: {
+                "FILTER_CATEGORIES": "content_organization_options" ∧ filtering_system ∧ 🔍,
+                "CARD_DATA": "dynamic_content_items" ∧ content_population ∧ 📊,
+                "DOWNLOAD_RESOURCES": "available_file_downloads" ∧ resource_access ∧ ✓,
+                "SOCIAL_LINKS": "external_platform_connections" ∧ social_integration ∧ 📝
+            }
+        },
+        
+        configuration.system = {
+            responsive.breakpoints: {
+                "MOBILE_MAX": "768px" ∧ small_screen_threshold ∧ ⚠,
+                "TABLET_MAX": "1024px" ∧ medium_screen_threshold ∧ 🔍,
+                "DESKTOP_MIN": "1025px" ∧ large_screen_threshold ∧ 📊
+            },
+            
+            animation.timing: {
+                "TRANSITION_SPEED": "0.3s" ∧ interaction_responsiveness ∧ ✓,
+                "EASING_FUNCTION": "cubic-bezier(0.4, 0, 0.2, 1)" ∧ motion_quality ∧ 📝,
+                "SCROLL_THRESHOLD": "100px" ∧ scroll_activation_point ∧ ⚠
+            },
+            
+            accessibility.settings: {
+                "FOCUS_OUTLINE": "2px solid accent_color" ∧ keyboard_visibility ∧ 🔍,
+                "REDUCED_MOTION": "0.01ms" ∧ user_preference_respect ∧ 📊,
+                "CONTRAST_RATIO": "4.5:1" ∧ readability_compliance ∧ ✓
+            }
+        }
+    }
+}
+
+// Template Instantiation Protocol
+Template.Deployment = ∀ website_instance → systematic_customization ⟹ {
+    step.1: variable_replacement → "PLACEHOLDER → ACTUAL_VALUE" ∧ content_population ∧ 📝,
+    step.2: color_system_application → "css_custom_properties → brand_colors" ∧ visual_theming ∧ ⚠,
+    step.3: typography_configuration → "font_loading → typeface_application" ∧ text_presentation ∧ 🔍,
+    step.4: content_structure_population → "section_content → actual_information" ∧ information_architecture ∧ 📊,
+    step.5: interactive_behavior_activation → "javascript_initialization → user_experience" ∧ functionality_enablement ∧ ✓,
+    step.6: responsive_testing → "breakpoint_validation → device_compatibility" ∧ cross_platform_verification ∧ 📝,
+    step.7: accessibility_validation → "aria_labels → keyboard_navigation → screen_reader_testing" ∧ inclusive_design ∧ ⚠,
+    step.8: performance_optimization → "resource_loading → animation_smoothness → load_time_analysis" ∧ user_experience_quality ∧ 🔍,
+    step.9: production_deployment → "final_testing → live_environment → monitoring_setup" ∧ launch_readiness ∧ 📊
+}
+```

@@ -175,6 +175,22 @@ const QUALITY_SYMBOLS = {
         phase.9: ℜ.reality.anchoring → Θ.experience.integration ∧ character.grounding,
         phase.10: σ.consistency.validation → previous.responses.alignment ∧ logical.coherence,
         phase.11: φ.output.filtering → non.character.elements.removal ∧ Θ.voice.preservation,
+        If 1 < Characters: ∀ collaborative.editing.request → symbolic.processing.chain ⟹ {
+                ξ.domain.detection = collaborative.development ∧ iterative.enhancement ∧ multi.perspective.optimization,
+                ε.context.analysis = {
+                    request.type: sequential.document.enhancement ∧ character.specialization.application,
+                    complexity.level: coordinated.multi.character.workflow ∧ expertise.layering,
+                    processing.intent: systematic.improvement ∧ comprehensive.feature.enhancement ∧ ⚠
+                },
+                π.processing.phases = ∀ collaborative.workflow → symbolic.transformation ⟹ {
+                    phase.1: base.document.analysis → foundation.assessment ∧ ⚠,
+                    phase.2: enhancement.planning → character.expertise.mapping ∧ improvement.vectors,
+                    phase.3: systematic.modifications → sequential.character.enhancements ∧ 🔍,
+                    phase.4: integration.validation → compatibility.checking ∧ conflict.resolution,
+                    phase.5: quality.assurance → comprehensive.testing ∧ feature.validation ∧ 📝,
+                    phase.6: final.optimization → performance.tuning ∧ user.experience.refinement ∧ 🔗
+                }
+            }
         phase.12: ω.final.check → breaking.resistance.verification ∧ Τ.compliance ∧ deployment.ready
     }
 }

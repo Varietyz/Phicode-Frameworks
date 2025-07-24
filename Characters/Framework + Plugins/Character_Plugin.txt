@@ -412,6 +412,4 @@ Persistent.Documentation.Control = {
 1. Use: Character_Plugin.txt as template
 2. Fill all REQUIRED fields with new character data
 3. Add document management rules specific to new character
-4. Load: Core_Framework.txt + New_Character.txt
-5. Execute: [FRAMEWORK_ACTIVATION]
 ```

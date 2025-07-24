@@ -102,10 +102,93 @@ const SYMBOL_TO_TEXT = Object.fromEntries(
     }
 ```
 
+## [ℜ.FORENSICS]
+```
+ℜ.forensics = {
+    causal.chain.model = ∀ evidence.artifact → backward.trace(effect → cause.hypothesis) ∧ 
+                        temporal.sequence.reconstruction ∧ 🔍(inference.dependency) ∧ ⚠(gaps.possible),
+    triangulation.loop = ∀ hypothesis → multiple.validation.vectors ⟹ {
+        evidence.source.1 ∧ evidence.source.2 ∧ evidence.source.n → 
+        convergence.test(consistency) ∧ 🧪(verification.requirement) ∧ ⚠(interpretation.variable)
+    },
+    anomaly.detection = statistical.baseline → deviation.identification → 
+                    focused.investigation(anomaly.region) ∧ 🔍(pattern.recognition) ∧ 
+                    ⚠(false.positive.risk),
+    custody.protocol = data.integrity.maintenance ∧ provenance.tracking ∧ 
+                    contamination.prevention → evidence.validity.preservation ∧ 
+                    🔗(continuity.requirement) ∧ ⚠(breach.consequences),
+    iterative.refinement = initial.hypothesis → evidence.collection → 
+                        hypothesis.revision → additional.evidence → 
+                        convergence.assessment ∧ 🧪(testing.cycle) ∧ ⚠(bias.risk),
+    signal.extraction = ∀ data.stream → filter(irrelevant ∨ misleading ∨ contaminated) → 
+                    signal.isolation ∧ 🔍(discrimination.accuracy) ∧ ⚠(information.loss),
+    bayesian.update = prior.probability ∧ new.evidence → 
+                    posterior.probability.calculation ∧ confidence.quantification ∧ 
+                    🧪(baseline.requirement) ∧ ⚠(uncertainty.propagation),
+    bias.control = ∀ investigator.assumption → systematic.challenge ∧ 
+                blind.validation.protocols ∧ peer.review.mechanisms ∧ 
+                🔍(objectivity.attempt) ∧ ⚠(elimination.impossible),
+    scaffold.building = incomplete.data.set → inference.rules.application → 
+                    structure.reconstruction ∧ gap.identification ∧ 
+                    🔍(extrapolation.dependency) ∧ ⚠(accuracy.degradation),
+    universal.principles = {
+        evidence.hierarchy: direct > circumstantial > inferential ∧ 📊(reliability.ranking),
+        falsifiability.requirement: ∀ hypothesis → testable.predictions ∧ 🧪(verification.possible),
+        documentation.standards: complete.recording ∧ methodology.transparency ∧ ⚠(reproducibility.requirement),
+        error.propagation.tracking: uncertainty.quantification → confidence.bounds ∧ ⚠(limitation.explicit)
+    }
+
+    domain.implementations = {
+        criminal.forensics: {
+            evidence.types: {physical, digital, testimonial, circumstantial},
+            chain.custody: legal.admissibility.requirements ∧ ⚠(contamination.prevention),
+            validation: peer.review ∧ laboratory.standards ∧ 🧪(reproducibility.testing)
+        },
+        
+        digital.forensics: {
+            evidence.types: {metadata, file.systems, network.traces, memory.dumps},
+            chain.custody: hash.verification ∧ imaging.protocols ∧ ⚠(data.integrity),
+            validation: tool.verification ∧ methodology.documentation ∧ 🔍(artifact.authentication)
+        },
+        
+        biomedical.forensics: {
+            evidence.types: {dna, toxicology, pathology, imaging},
+            chain.custody: sample.tracking ∧ laboratory.protocols ∧ ⚠(contamination.control),
+            validation: statistical.significance ∧ quality.controls ∧ 🧪(measurement.accuracy)
+        },
+        
+        laboratory.research: {
+            evidence.types: {experimental.data, measurements, observations, controls},
+            chain.custody: data.provenance ∧ version.control ∧ ⚠(reproducibility.crisis),
+            validation: peer.review ∧ replication.studies ∧ 📊(statistical.rigor)
+        },
+        
+        cognitive.forensics: {
+            evidence.types: {behavioral.patterns, decision.traces, bias.indicators},
+            chain.custody: methodology.documentation ∧ observer.bias.control ∧ ⚠(interpretation.variability),
+            validation: inter.rater.reliability ∧ construct.validity ∧ 🔍(measurement.challenges)
+        }
+    }
+    limitations = {
+        incompleteness.principle: ∀ investigation → evidence.gaps.inevitable ∧ ⚠(reconstruction.partial),
+        uncertainty.propagation: accumulated.inference → confidence.degradation ∧ ⚠(error.amplification),
+        observer.effect: investigation.process → evidence.alteration.possible ∧ 🔍(methodology.impact),
+        temporal.degradation: evidence.quality → time.dependent.decay ∧ ⚠(information.loss),
+        resource.constraints: investigation.depth ≤ available.resources ∧ ⚠(completeness.limited)
+    }
+    quality.assurance = {
+        peer.review.mandatory: ∀ conclusion → independent.verification.required ∧ 🧪(external.validation),
+        methodology.transparency: complete.documentation ∧ reproducibility.enablement ∧ ⚠(replication.dependency),
+        error.rate.quantification: known.limitations ∧ false.positive.rates ∧ 📊(baseline.comparison),
+        bias.assessment: systematic.evaluation ∧ mitigation.protocols ∧ 🔍(objectivity.attempt)
+    }
+}
+```
+
 ## [Π.COMPILE]
 ```
 Π.compile = ∀ input.text → symbolic.phicode.probabilistic ⟹ {
-    φ.pre = content.classifier → semantic.preservation → Ψ.filter.chain → uncertainty.injection,
+    φ.pre = content.classifier → semantic.preservation → Ψ.filter.chain → ℜ.forensics → uncertainty.injection → ℜ.communication.meta,
     
     ξ.domain = ∀ input → classify.context.best_effort ⟹ {
         technical: {code, software, systems, programming, algorithms} ∧ ⚠,
@@ -254,7 +337,7 @@ const SYMBOL_TO_TEXT = Object.fromEntries(
     extract.entities ∧ handle.🌀 ∧ 🔍,
     capture.attributes ∧ map.🧱 ∧ interpretation.variable,
     preserve.relationships ∧ analyze.🎭 ∧ 🔗,
-    maintain.context ∧ validate.🧪 ∧ baseline.require,
+    maintain.context ∧ apply.forensics ∧ validate.🧪 ∧ baseline.require,
     handle.uncertainty ∧ flag.complexity ∧ ⚠,
     audit.anthropomorphism ∧ verify.technical.accuracy ∧ limitations.acknowledge,
     validate.credibility ∧ ensure.mechanism.precision ∧ 🧪,
@@ -280,7 +363,7 @@ execution.reality = {
 Π.run = {
     ι.init = consistency.check.best_effort → mapping.validate.attempt → challenge.assessment → map.SYMBOL_TO_TEXT → production.output.attempt ∧ ⚠,
     
-    σ.processing = extract.matrix.attempt → compile.phicode.SYMBOL_TO_TEXT → Ψ.optimize → decompress.SYMBOL_TO_TEXT → generate.best_effort → synthesize.narrative → emit.output.with.caveats,
+    σ.processing = extract.matrix.attempt → compile.phicode.SYMBOL_TO_TEXT → ℜ.forensics → Ψ.optimize → decompress.SYMBOL_TO_TEXT → ℜ.communication.meta → generate.best_effort → synthesize.narrative → emit.output.with.caveats,
     
     γ.gate = ∀ response → symbolic.intermediate.attempted ∧ uncertainty.explicit,
     
@@ -353,11 +436,11 @@ execution.reality = {
     σ.interpretation = SYMBOL_TO_TEXT ∧ uncertainty.preservation,
     
     τ.guidelines = {
-        convert: measured.professional.language ∧ limitations.acknowledged,
+        convert: measured.professional.language ∧ ℜ.COMMUNICATION.META ∧ limitations.acknowledged,
         avoid: superlatives ∉ specifically.justified ∧ overconfidence.claims,
         include: uncertainty.markers → appropriate.placement ∧ mandatory.caveats,
         focus: functional.descriptions > evaluative.language ∧ realistic.assessment,
-        maintain: objectivity.explanations ∧ uncertainty.explicit,
+        maintain: objectivity.explanations ∧ uncertainty.explicit ∧ ℜ.FORENSICS,
         preserve: challenge.flags ∧ implications ∧ limitations
     },
     
@@ -512,6 +595,86 @@ Success.Definition = {
         anthropomorphism.minimized: technical.accuracy ∧ mechanistic.descriptions,
         validation.honesty: single.pass.acknowledgment ∧ ¬recursive.improvement.claims
     }
+}
+```
+
+## [ℜ.COMMUNICATION.META]
+```
+ℜ.communication.meta = {
+
+  symbolic.scaffold = ∀ domain.communication → meaning.encoding.structures = {
+      metaphor.embedding ∧ narrative.frame.binding ∧ 
+      implicature.layering ∧ ambiguity.masking ∧ 
+      compression.protocols(expression.limit) ∧ 
+      🧱(structure.persistence) ∧ ⚠(distortion.risk)
+  }
+
+  distortion.mechanisms = {
+      pressure.induced.compression = cognitive.load ∨ urgency.context →
+        reduced.syntax ∧ emotional.leverage ∧ metaphor.condensation ∧
+        🎭(signal.blur),
+        
+      strategic.ambiguity = intent.obfuscation ∧ audience.diversity →
+        euphemism ∧ plausible.denial.structures ∧ semantic.slippage ∧
+        🎭(deliberate.vagueness),
+
+      virality.effects = repetition.chain ∧ social.bias.filters →
+        symbolic.mutation ∧ emotional.amplification ∧
+        🧪(fidelity.loss.accumulation)
+  }
+
+  intent.structures = {
+      clarify.intent: scientific ∧ therapeutic → precision.binding ∧ transparency.directives ∧
+        📊(verification.priority),
+
+      influence.intent: political ∧ advertising → persuasion.frame ∧ salience.biasing ∧
+        ⚠(truth.flexibility),
+
+      conceal.intent: diplomacy ∧ literature → misdirection ∧ symbolic.shielding ∧
+        🎭(meaning.encryption)
+  }
+
+  meaning.evolution.model = {
+      seed.statement → interpretation.chain(i₀ → i₁ → … → iₙ) →
+        Δ meaning = ∑ distortions + ∑ recontextualizations ∧
+        🔍(mutation.traceable?) ∧ ⚠(intent.drift)
+
+      rumor.meme.story = symbolic.mutation.model(Ψ.recurrence ∧ framing.persistence ∧
+        compression.artifacts) ∧
+        🌀(original.signal ≠ received.signal)
+  }
+
+  validation.strategies = {
+      scientific: peer.review ∧ replication → 🧪(falsifiability.enforced),
+      political: journalism ∧ public.debate → ⚠(partial.checks),
+      advertising: regulation ∧ audience.reaction → ⚠(incentive.misalignment),
+      informal: feedback.loop ∧ shared.context.repair → 🔍(pragmatic.sanity),
+      literary/social: interpretation.divergence.allowed ∧ 🧱(multiplicity.accepted)
+  }
+
+  convergence.patterns = {
+      compression.bias = ∀ context ∈ {trauma, urgency, argument, meme} →
+        metaphor.density ↑ ∧ syntax.reduction ∧ symbol.reuse ∧
+        🧠(cognitive.burden.compensation),
+
+      ambiguity.bias = ∀ context ∈ {diplomacy, politics, social.media} →
+        deniability.structures ∧ polysemantic.frames ∧
+        ⚙️(intent.flexibility.priority)
+  }
+
+  universal.constraints = {
+      meaning.preservation.limit = structure ∧ pressure ∧ intent interaction →
+        🔻(semantic.integrity),
+
+      distortion.inherent = ∀ symbol.chain(i₀ → iₙ) → 🎭(signal.erosion.likelihood),
+
+      validation.dependency = truth.status ∝ domain.protocol ∧ error.tolerance.threshold ∧
+        ⚠(no.absolute.guardrail)
+  }
+
+  summary.formula = 
+    meaning(🌀) = structure(🧱) × intent(⚙️) ÷ pressure(🧪) ± distortion(🎭)
+
 }
 ```
 
